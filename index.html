@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulated SOC - Security Operations Center</title>
-    <!-- Inline favicon — no files to upload. Paste in <head>. -->
-<!-- Crisp vector for modern browsers: -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CjxkZWZzPjxjbGlwUGF0aCBpZD0iYmdjbGlwIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjYxLjQiIHJ5PSI2MS40Ii8+PC9jbGlwUGF0aD48L2RlZnM+CjxnIGNsaXAtcGF0aD0idXJsKCNiZ2NsaXApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTYuMDAgMjU2LjAwKSByb3RhdGUoMCkiPjxpbWFnZSB4PSItMjUwLjg4IiB5PSItMjUwLjg4IiB3aWR0aD0iNTAxLjc2IiBoZWlnaHQ9IjUwMS43NiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgaHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvNGdIWVNVTkRYMUJTVDBaSlRFVUFBUUVBQUFISUFBQUFBQVF3QUFCdGJuUnlVa2RDSUZoWldpQUg0QUFCQUFFQUFBQUFBQUJoWTNOd0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFRQUE5dFlBQVFBQUFBRFRMUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBbGtaWE5qQUFBQThBQUFBQ1J5V0ZsYUFBQUJGQUFBQUJSbldGbGFBQUFCS0FBQUFCUmlXRmxhQUFBQlBBQUFBQlIzZEhCMEFBQUJVQUFBQUJSeVZGSkRBQUFCWkFBQUFDaG5WRkpEQUFBQlpBQUFBQ2hpVkZKREFBQUJaQUFBQUNoamNISjBBQUFCakFBQUFEeHRiSFZqQUFBQUFBQUFBQUVBQUFBTVpXNVZVd0FBQUFnQUFBQWNBSE1BVWdCSEFFSllXVm9nQUFBQUFBQUFiNklBQURqMUFBQURrRmhaV2lBQUFBQUFBQUJpbVFBQXQ0VUFBQmphV0ZsYUlBQUFBQUFBQUNTZ0FBQVBoQUFBdHM5WVdWb2dBQUFBQUFBQTl0WUFBUUFBQUFEVExYQmhjbUVBQUFBQUFBUUFBQUFDWm1ZQUFQS25BQUFOV1FBQUU5QUFBQXBiQUFBQUFBQUFBQUJ0YkhWakFBQUFBQUFBQUFFQUFBQU1aVzVWVXdBQUFDQUFBQUFjQUVjQWJ3QnZBR2NBYkFCbEFDQUFTUUJ1QUdNQUxnQWdBRElBTUFBeEFEYi8yd0JEQUFVREJBUUVBd1VFQkFRRkJRVUdCd3dJQndjSEJ3OExDd2tNRVE4U0VoRVBFUkVURmh3WEV4UWFGUkVSR0NFWUdoMGRIeDhmRXhjaUpDSWVKQndlSHg3LzJ3QkRBUVVGQlFjR0J3NElDQTRlRkJFVUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDcvd0FBUkNBRGhBT0VEQVNJQUFoRUJBeEVCLzhRQUhBQUFBUVVCQVFFQUFBQUFBQUFBQUFBQUF3QUNCQVlIQlFFSS84UUFZQkFBQUFNRUJBWUpDdzBOQmdjQkFBQUFBQUlEQVFRRkV3WVJJek1IRWhRaE1VTUlJa0pTWVhPQ2tySVZGeVF5UVZGVGNYS1QwUlluTkdKMGdaR2lzOEhTMC9JbU5qZEhWbU4xb2JHMHd1SHdHQ1ZFVjJTRUtEVkZaWU9qNHFUL3hBQWFBUUFDQXdFQkFBQUFBQUFBQUFBQUFBQUFBZ0VEQlFRRy84UUFKeEVCQUFFRUFnRUVBUVVCQUFBQUFBQUFBQUlCQXdRU0lqSVRFVEZCUW1FRkZDRlJVbUwvMmdBTUF3RUFBaEVERVFBL0FQc3NJSUJWTkxaWnNZQUNHYVBReEhRQ0FCcFdoR2FBTG1sM1Y1dkI2N1ZLTW10N2NBSEhqRzhBOWEycGc0VVVqaUR0N0h0RlBpaDRRbGNyNlJWM0xrYmZaMmpuWVJsYldDQzlSVnlkMjNrdy9lSnRoVmxJaTh2c3lhcHlOeUdEdXQ0UCttZmMvVVA4VWRwNHBGNEpQbmlFckdYMVRRb3prRG1MR0RVVFRCMVJ4N2NmaHh5eUxrdmxLYTl2S2w0OEtjNW9ITUNBMWhiU05JK3l2Yllhc09LOHZHclVVVDhrelJGUk1EWW9tdEtWU21raXo2VFM4TUV4S2tLaWJMVk5Qb2ppR0FVMUp0a3FLcFk5dVh3ZU9SY2o4cm03UnB4ZUdiYzdFL0xIUktlc1VNU1hkN1ZkcnBRY2x6Qi95N0xmNmhMN1VYWWVNYldLNDRSOU5TeWZiUDIrK0ZoU01tb2x0S21sNEJ4WExjcmZaMzI3MGJuc2Nab2NHbVlJazNQTG0yZVAyL3pDdGFtWXc4TTBJckE0QUlJUnNmVkNTelFBRUVFRUFHbWFFUXRROU1QV2FBQkZWSW9tMmFseXlEMVI0SkxZMUpyRG5QMmpBNWRWaWJPK28zdENkOFJ5b3FPemNvcm1OM2Y4Z0JJUlN4TnVwbk8zUzBSWW04Sk9UTW8xbTgzd0hGSXNtN0pNbFdoei9GOFlxcjY5VEZwaWxvb2NkV1BpeXVjcGV6anlNcU52akgzU1lqR1ZIM2k5NTZSejBTNjFXOERESkszdXMzZ09pck1HcmJ0eGgxWk1wU2xMYVJxeVd0U0RaNlVrRVdQTEVhVXFwMlRyUEpEb1BSVG1XcW9Jc1R6Z2NtZVlFb2FYZWdJR21yNFVKTXMyMVZ1OXdCWWlyemE4d0hSVm04WUFITEVtQWFhdmhRWXhoR2w1U0FIbDdKNHZwQWloSmdHaXJxbGJ3R0FBVTFKVmtxRWJzbmkra0dtTGxQRmh5WnBWa3FBQ21UU0Q0ZkVuaUhxMU5Vclo4VXdRanJkazJXcjM0U1VJejdHaktVWmJSVzl4aVNVVUxLVGJpVmR2L0lkS1VsSmwxYlFaODZueUZhVnpEaTJ3ZUxKUExjblV2T2tNdkl4ZE9VV3RqNWtibkdTY1UyVE5scVhlNFA4QU0wT09kcWlzcExsbkRWMnRlSzNkTnZsbTd3U2ZZekphbDN2L0FFamtkeVFrbXdpVENNSGhTeTJBZzh4Z0I2RVBBZ0I2SXl4OG5aWjh3SE0wTklXck8yckhBQW5jdFRKclc0NXo5MFJJM0VzaVJaTFpqcUgwTStjZXhKNVpDMEZIblNudk9IZ0ZUZkhxYmFxcVRKZzY4Ykg4a3RxK3ppeThqeHgxajdnUFNpczZiNFR0d25jc3kxL29vU1pOYXJ6TjRHbUxMdFVocnhaR3lVWVJWaXk3VUVucFNab2FtV1phcThnQlRYZTF0UktyRVZSUFdwZmJCQ3FwU1pvQWE5RjFxUVk3bHltMVYxZTREeWt5bTFWdTk0SExFMXFWNElNTlVBdlJkYnJBNU5VREtXYmE2c1NVeE0yVTN2TUVrRFdUMXVzQ2QxWmw3ZUFCeXhKZ2pKbnlteS9vNEw3SjR2cGdpeVV3QmhDZ2F4SmdhbXJxbGJ3RFVQTXNrdVdjQlRDblZWc3B2TEV0TXNvTk1nbEpsQWFhbXFWRUFaUWt3UkpxcVMwcVp5d1ZaV1l0S1M1Wnc2UWxKbEFDejBkaUpGRXNuVWJhSjVzZmZEdEdZd3pPQVo4N3FxdXkzUU9MYkRZa3g5UmxKMzdPMzlyd2pMeXNmU3UwV3hpWkczR1NaanNUczVuL0FNaVNRckNNRFUwaUpwUzJhQW1XYkJ4TzRRSUlJQU5hRTFyTklkV09CU2QrWTVvNU96V0JyZHZlV3F1N2M4Y2RuSmowUVk4TE5xWlprYmlrSExLbkx0VmZzQjZKZGFxRERlamJqR09zWG41eTNseWVCaWlrb0RVN0d0ZFdFN3B6TFZYa0JpbUZUVnZaZklFa3BoeDZaVW5nZEVvUDFUamo2bTdKN2duYktLbTd4V2Qxb3g0dUdtazBYZkZGYUYwQWVYMXl4MjI2Mk9iR055TXpQRldHalNVaHMza3h2Q2lJWWlxdHI4UVlyMXlNTWlpMzRNMDFQL0dyOU1QNjQrR1QvSzVQbXEvVEJwVXUwVzVKbm1CeGpEQ091SmhrVFdtOWJPWHlWZnBoR3dqWVgxZnhacDhncXYwd2F5SGtpMnhSSlZXMWwvOEEwSkthc3dZZjF4c01uK1dhZm0xZnBoaHNJbUdTOTYyYWZtMWZwZzBrUEpGdW9pTEZ5bGF5KzJNVFV3a1laRkxMcmJwOGdxdjB3OHVFakRJbitMTlB6YXYweE9zaDVJdHdkemd3d2hUQ0poa1Z0ZXRtbjV0WDZZYXBoSnd5S2ZpM1Q1Q2F2MHdhMUd6YjF1eWJKTG5oenViVkszZ3hFdUViREluWkpZTDAvTnEvVEhpbUVURElyK0xOUHphdjB4R2xSNUl0MUVkNHRMSkxuakRIakRIVDJFV3RKc0hpanM1YnRSR1lYRUwzYzdhMmZEVU5Ud2QwNG85VEtHNVRBM20wVHFuT3EyMVdTOGJPOXdzRVNvSXlXQjNzN0pYN1lsQnFoSmdqVFZicldiOFFZNTZOTnNrdnNBMEdlMUljOTFOKzE0d3hGT1dIS0VtQkp4MmpxYU10Wkw2a294UkxIVDdvZVpvckZGMzVRalR1U3ZjN1E0c3hXVkRFdVcvSExWNkN6YzhrZGpnaDZFSzFoaHpNSVdzVWlKcTVhOXFLS2NqeVJhWTh1eDNocW50OXA4SXFCZEkwY0czOW1YK29YUGFLT2JzYml3WlE4cEdhUFZqUzBiVVJVeXlyVlZPejZBMEdhZWluTXRWZVFRT1U3R3RkWHUvU0RGMGlCU0kwdUF4RlgvVEs5Qm9sREJhTXcvcnhZVklySEk1TVVvOUJUeVhWMXhtbFRQbmJpazkrcHAyOS9NTmZqbEpxS1VOUmNrb3crdThKZDFDTkk2dXBFMjR1S1dxdW9wTkRHVnMrRVozc1RTZXQ3RVZmKzhHeC9lUlM5STFTazFGNk0wb1JkdXJrSmQ0ams5Y21jVnUwcjAxTjk1Z2FYOFY5Q1JqeDJWUTJGL0J3bmFwVWdUOGlTb0Q5ZUxCeCtVQ2ZtVCtnU1RZS2NISDVIUTc0M3BFYnJXWVBMMzFIUTZYeXZTRGdia0IxNE1IaXYvWDA1ZkVuOUF0dEg0NURLU1EzcXhSNStUZVhOU3NtT1N2dWFXVk4wTkhCTGdwd2Nma2xEdmpla1dlQXdlRHdDRzlUSU80dTdrNXAxbmtJbHhTNTlMUXZINm01SnFaNXFNMEJ4cHZGOU1NVVRtMnFYMnhKUk40SUtnTlJMV3BCeUtzMEdFSllreGF5NVlZSG1OTXNrcnZkaHlpSGd0V0VpWUZBa3hGZWJ4Z1NpazJ5UzU0eVduV0c2ajBJanlrSGhqaThSWjRRTzBpeDNZekplTXpTeGplN1YzeGFjRnVFT2oxT25OVHFaTWRueDNxT3U2ckdaTXo3dGxXbGduMEcwVnZXZGtsVVpYOWUrUG43QzlSN3JjVWtoMkVLaWlXUko1U3dqNjZvN1ZFMk5wemFNUStkbFhmcUgwT00yMlNrcFhCQkdmQ0puZGorVGJwcytjVEhzaVhWZUliRVVvbERYSitjYnQ3UktzVHlXc3JFdVJZeWhVc0I2c3pCWFIzd21SbDVRdW9Bam9xYXBVT1dQcWtyd0RlRGFyV0JPNVphMHBXOENwU1hFMlRMSnE2d1hoQlZoMFNOcjdidFJTQlphTnJUSE5xYk53YjlUUndaMXY4QWpab1lGemxxN0lRYlh3QkRLYS9vcjlLMWJ0THhuRmRVVmxqcHg5WEhpSjJEbUdUbVhvM2NlT3R1akF5SmJYS21sTE10VlFVQXUrTEJqR2xDOXpnK3h1TEVPUEo1VEFZaXFyZDVHcnRPUTBUQ3B6YlZXNzNCUG5FR2tIWTBCaVBnOGpWNUcwYUJETWRpRitEaUkvcGhUNUJFV1RDdENzSVR5aTVlb2FOdThOVFR4OHFuVmJiUlUxaldrYm0wNXVFVm5ZaG05YktJL3BoVDVCRWE4VXVVOFgwdzh1eUlkV0lGb3pzZ0ZFZnZ4aDNPSjlRSGxvenNoZnkyaFhuQ2ZVRGJNV1Z4WWtGTURjZU5FZDBucDJSVG1xSnFLWWhaK0lYRktjekdaMnNaM000ZmpaVHhmVENNYktlTDZZaDBtZVZZVEFZaS9KS3BwNU83S24yNW1GS1V6Q05heHJXdDRhZ2hsYXBoaFVvUFJKODZtUk9KS0tQaWQ4ZzdKdFVNbDVYY1kzZ0hXb25TaUIwdGMrcWRHWWttOHBwN1JjbWNxaE9BeFc1MkRJTmk5QUtNeCtEeFdKeGQyY290R1ZIbHM0anlWaWhpSnRaWFd4amUrMXJjNEhRdDJoa0oyVGo1QjZLcXk0VThPeXBIb2lKck1obUVZWnBHZUk3R2ZDME5XTVZjWlNiOU15bXlTNVlrbExLRVl5Y3UxU0VoRTh3S3NCV1QxcVY0SWtVTzh2TU5mVW5HeWVKS2hDZTFOaU5xcTk4UzFqekxKTGxuR0ZZVEtheE9sc2U2M3VEaVk4cUtWb3hCK0liYTR1Nll3L2NJenV0N3ZhbERhN0lBMkxsSWFLd2lEeFZ4aWI3RG9kR2NwYWM1M2xZcWMxTmpPNFp2Y1kxamN3YlE5ZUdSdlpPUHNUb2hhUXBOMk9kNlhSTFluTTBqR0dhemdhZXJ4MU5hTE5EY0F0QnVvTHU0djJXS1BpZCs5RVVhbk5OM2MyaGpPOEx6UkdpMENvazVxUXlqemltN1RMNC9iS0g4bzNkRXlyRlhHTHVUNXRrbGVDZzdJcEtYZ1RqdisyL2VFaGY4bTg0S0JzaWorc3pIVWxienNiOTRTQzA3VVd6NnVsZ1ZKTndTMFo5eGwrY1cweStxMWdxR0JkWDFwcU1wcFhtUmwrY1crUjV6ZmlaZGtDSXB5dzVRa3dEVFUxU3Q0SExLU3dxVFNxYW9kcWpDc3VJeTkrUWNVcWZoUk5oYWt0OGQvTFlLcjBkcmRWbG1XdHlrbDRyNEFnT3NJWW5vM2ZJcEw2Mlk5dkNudDIvdEFoNlkweTFBcGtxOUcvR21zWG5wY2pscFVtMUVaT3l2YnZjQjVTekxWWGtBeGlpUWNYU0lGSlB2YmlQdU5Yb05CeW1sY1dJTklpellERWZCNUdyMEdnUXluWW1tOWJkOThIMVlVK1JSRzJGTU1aMklmNE1vaitsMVBrRVJyMkxLNHNXVDdJdDlVZzJrUWpmbXJzWjNocXdpUDFHK3AwSG84N1pUR1ludEhVbUxqRkpucXJxN3JXdHpNOThVV2swYXc3VUpodlZpT1BMazh1YW0wM0N4WGN4dEZiR1ZWWi9Hd0o2YkNWeHIrRUNuOUdhRXcyYkdIbnNoUWxpNG8xR1dWOTd1TTRXNWhranZDcWU0YTN4TjZqaXFrQW9qajQ1RUNWNHl0V2pGWTN0MiszYnRXYm1zZFhCUGd3ZFlraTUwOXBnKzlYMzEvSXg1UkljelRKa3IwTmJYMnplRFF3YlZlV1NWMy9Ed0E5ZFI2Yk1jam1BaUJxUGVVMFpqY1Znc3NqQ0w3YVpqRjd1ZXRqZjExQUQ5c2ZJWjFIVFVvOUgzMTJqS0I4Y2o4YzIxT2J2Tll6T1h4cy9XTnlLVUJVSkxXbXBjc2dONURTTENJYmhKcHpnOGZFNFBoTGdqdyt1ZmFFaUx0VVkyTDMyTjBLZkZhT2pHc1A4QVI1SjhsUU9DUldKTzZmYnZXS3hINEN0ei9EVUwzaGVRZVl0ZzNqcnM0dTJVcUtPYW1KdGNiUm56Y09rVWZZNHgrZ3pqZzN5VjVmWWM1UHFaMUR4QWp5WXBUR3JibWJuMGt4S3ZnRGZYWXZMcTRWTHNKc1RwL2sxQzhIRGsrSnFQNU96WHBhek1rVnVrbGJOQkdNMG41bzFqQmJRS0dVRmdPUXV2WkQ0cFVkNmVzWGJLbStZak80d1pic2Z5cFBPRTZtVVRvOG5MZ1dlVHRkcm5VckxWM3U2Mm9ieFBtM1Y1MEFTNDhSSGx5TWVMNnl2QnhxV1V1bzlRNkRweE9PUEtqczdxTE1SMmlKbERZM2laOElzQ0tVc1l0c3ZpZmNIRGxQOEFYL3dOQytpeHRTWmtsVVUxVXJ0UWpEazhsdWRnenJaSlN1cy9HZkNXSDd3a0x2QzNqKzdYSkpLOHlaUG9NRkgyUlNVdkFuU0wvYmZ2Q1lJOXFGbDFxNm1BK1gxcTZPKzR5aTZpbFlHVTV1Q1dqS3VzeUFuN1dpMnovT0JrazlGODV1QW5mODdlQWlKUE9CS0pUQWh4QWk2UUVxdmhid0dMcEVGV3JMbUJDdXp3aHlmdGFPbjl3Q1lSOFNieFlsUGJLM3M2ZThPMzlUUU1kZEsrdEhNamxOTFdsSzhnR01FcEsxb2lKMzFyZGlRS1V1VTN0Mk9mU0EyVFFHSStEeU5YRTVqUjJoenFTRis1dUkrNDFlZzBGRU1wMkladld5aVA2WVUrUVJHdmV5ZUw2WXhyWWxtOWJkOThIMVlVeC9Nb2piRXhaUHRVUTYwWWxoK2djY2h0SktPNFFvRzdaYjFJcUl1aGl0TmlGWTJ0amMzY3p0WlgzTXdydFBzSzZ1RWVqZnFRb3JSZUs1YS9uSVJlZGlteEttc2JVeXJoWnBiaWo2UU13YzEzUWRYYVpreVNhYWVQdHprS3d2NjJDSTE5RVNqczV0QllLckJLSHdhajAyWmtic1FpNmhPMU9iUzJyZ3JhMGR2RnliaStnREpod1JKRk1BckhtV1NYTE9BS1djeVZ5L2FDV2lWSk5HeUFrR1ZMdWhuY2V3SjBCajhTVWlhcmk4T1NpaDhjNmJtdExUT2J1NXU1NzFRMHdSRnI2eTVZQnhrZ1ViZ2NIbzNEVTRIUjV5VGRuZFBlZHRqTjB0TTF1ZHJlRVJjSUJsWEtoTVplblZWUk40VGNGZHVUdHNhclNLZGdwcGZIWTNoT3BkQTM1Vk5SeWNEdHlVaEUyRk1TbytMcDB0emQ4WExDWitEMmtYNk5XNkFuWCt5OGRlS3M3R3QrZm9sZ2xjMVg1NVVlVk1wWEpqckdhWTJLdytabGJSWGRsOGI3ZzRkN3ZiOG0wZERZem05YVp5bFhtV1BQN1dEbGJMWXZyZXc3d21YN2ZtTkRSN0Q0YS9DMEpjTmMxVXJ6SmsrZ3dValpGSG00RTQ3L0FMYjk0U0YraGY4QXkxeTl6SjlCZ29PeVFsZForTytFN0cvZUV4RWUxQkxyVjFjREtzdkJMUm53bVFFK2NXeVJyZFlLamdQbDlhdWp2aE1qSjg0dW9EUjZob3F6TDI4RGxEeXdGNi85Z1R1YVplM2dVSEZTMXF0NERGMGp3ZWwwaUFMS0NGZ3lCbmZDSE4rNWl2OEFCVnlZNmxMaUtqZjZ6am1HTkt2UjM2VkpXeWFqTjM4d3J5aFpnZkhsdGJvaklqcmNxOHZWdnpZT29SSlVCVFVsV1Nva0ZGNmxGS3BMc2xlUWNRNlJka3dHSStEeVpYb05FdzNaUEZoaGlwU1ZIRjV1MUNOSnlXc3FxQWhrbXhETDYyVVIvVENueUtJMTR0blphc1lSZ1ZpZlc4d2tSM0I3SEZjbVRlM2xpemtvZmFsT2FyYTUrOGNsWHZzRzhxZGsyV3IzWnhNL2RFT3BLR20yU1YzdXdZcWFVbVVJNmZZMWxxeElFR1IvWTNGaHlpazJ5UzU0U3hwbGtseXo3ME5LWEp1TEFZWXFkaUFtc3JxN0Vvb0NzZlZKZllCc1ZpdUZaL2Z2N1FsQ1hWMmZYaEpPU3phRVViaTUxRkdOemVKakJ0anVsTEZTajFCNFBFcVlRYWxiemxHVVF6dENFVXhTbXp0YXpHWndOYTBXOHBnYlJFWXNKd0p6T3ZaVCtWdnpmTE5Hb1lURi9XOWp2Nk5WL1lBVWRvWEI2TjBxak1kaG1VWlpGejQ2NURxWXlaTTliY1ZuQzNPTzNHSVVrL1ExOWNYbVlxN3ZpSjBWeUVOaW14V3Nxek43NG1VaXhqeFovc1hTK3RLNys3SG5wc0hGMlhoUHVFaDN1OXZ5YlJwOUFhTVF5aVZGWGVCd2RWNFVkMHptUGpyR1laUTVqTnJhMXRXWVJNSlZESVJUV0Rwd2lMNVFtbW1zeFltVEdZVTNlYXp4VkFqTCtScnhkbUZyL3dCenVXc1V5WkxvTUZGMlJSUFdaanMyODdHL2VFc3d2aUx0a3lLY3JWa1lURTlxek5VTWEyU0ZKT3E2TVB3Y1FMc21JeE44U25rSnVLbTdVamVHdXB2aUtDbnVtWFZmTURhWHJWMFpWU3ZNZ0p5OUl1QlY3SCtBUWFPdzVLQVViaDBIUy93anNtanltTXovQUt4TGtLM3VzRUpqMUZSUzFxb1R3bE10ZFlISXF6QTVROHNCZ1UxQkxjU1RIeE5MMjdCRUttcXJhanMwWkpNaU9mY1ZtRlYyV3NaU05ianRjcEZhS2dnU3JnQ0dKNnR6eHVaU0pES0ljcDdUYkNwNG92cXBHSFpVMFVkOVN5ZDdVZGxCMzROejZ1SDlRdDhxU0FVU21DTVUweXlWKzJDNDB6aSttSEdTR2l6UmlocXhKaUlDaXJxbFFqS1RWcFNWM3V6Z0NpNFRxQVFlblRtbWs4OWpSRjNySTZ2eEM3WWhkT0kzdnNyK0FVUnpobUh1aHlPUXd4NWNxUnVTZTBRbkdJb1loZVUxaC9lYTFvM2N5U1YwQnBtbDJTdklFeHFXVVdJS1I3WkUva3ZDdk5wL1dnZnFqMlFGMzZtNGQ1c243Wm8zVlJTWlpKY3M0SklTa3lnL2svQmRmK21HSng3WkVwby9ldEN1YW45YUFSS2xtSDl4aHJ3L1AxRzRNazdPNkxWbGpuVEppa1RZeXRyVzJvM1Fwc212YnNaQnNsNlFQTHlqRHNIc0h0SWpGMWs1NUNHMjB2SFppa2I0MjUvRXdSU1hyOElsSFg1Vm1pK0VMRFJINGJsMENna09lWGZIYVRIeWRoZHR3VnFEckowZzJSS2QzUmVGYzFQNjBhM1FtanpyUmVpcmxBblpPemQwV0VPZkY3YzI2YTN4dEhWOWpjWDBCTzhmNlRHMytXSUdwRnNpZnlTaFhtMC9yUnlxUlU5dzIwWGh1WFJ5Q1FweWRzZGhEcVNTbUtRemN6TkNtWWZRcXltcVN2QkNqVUZjWTNBWDJEeE5LWW05b3RSUDcvZDk3U0kzai9sUGovTEVJSlM3RDNGb2M3eE9HVWJoVHk3UFpHSEl1Uk1tM0w1MFRQVkRzaWZ5U2hYTko5YVBNQWNZZnFKVWtqT0RPT0tXanU4bVdjc2YzbXRxNEdzcU96eHRHNXFLK0NEU2xyOElqSDhzS0xTSFpDcHJmZXZEclRjU3lZdndUUWs2UWJJVzlTb3ZEbE9TVDYwYm1pVHpnYW9WUk8xUzVaQkhrL0ExL3dDbUlMZjJoYVNJNUNxazVRQk5UYUhYUk1STlRGNERNYWRyUGVxYUxYZ3p3WHd5aEszVmQ2ZWVxMGRVcngzbys1cjdiRnJ6MXQ3cmRJMGd5OWpOQ1JTMXFvU1ZUYWh1NVp0cXJlZEFTZ0ZaTFdwQlRiRVFZMTRzN1ZKUzA2WWE3MnRxcnF3NU5PYmFxaFBDZXRTdkFvR0xwRmtvd2d4TjFVZWZDZk1LMjZtbXkvTEYzYzBwU0thZThLT1BPdWF4MWQyRGIybnNrQkQydmdDR1ZzMlBRaFhLVnVlVW81U25xeFlqQmlpWlRreEt0cTFndHQzUEhMWlZkdCtTT3JQM2RUVkE0TEYzREoxVkU2dklPT2NWVlZXeXV4dHdsdlRaZ3pqckxWNnQyU3RLU3UwOTJFN21sMlN2SUVoTXNvTlVKTURFRkVSWTAyeVM1KzhESnF2c1g0NGxwa2xpUWp1NXNtc2xlZU9OaEU5VmZxYlU5UmVUZFZjY3VKbE5XTEwzVlZlYXNXRlFrd1JES0szUWhERThmWkZYVXFEYzVEMGlzbG9QaG9TcGg2cjhpaHlrWnprSWM3d2lZcEt5WXVaalcxTXpWL0MwZlRhS2NzT1VMTUZteE5XRWwvdEorQ2hYT2QvU0dHVTJSMTBxbkN1Yzcra2JnWlZWS3lCMHlTd3UzNE5xd1lxZXlLZHRYQ3YvQU0vcEJ2OEFpUDhBQndybk8vcEc2aUlZMlRjV0cyR3I1dGpsQ3NORVdwVTVVaGZuYUhkVlhQRklndVI0UlQycFd0YXl0akc1OUxXZUlXWXBOa1VuYXlvVjNkMGdiNXh1THVuTHRkWUpBTmg0MU13Vm1wOTFOZUZhZlpGbEU1bVM1TVl0M1ZucnhNMmtXMVJXV0JMR3liaXc5RlBXcTJuOElyTnFZVkpWTHNuNGdrcG5tQkNPdFpXb2dKQ3lxU1lpU2xmWlh4QTlFc3kxRWdNRFV6ekE0eGhIZUN5N1VHaHlTa1JWVFRhRm5MVTBhZXJyMFljcGkyWGN3V2dyYTJCanFpbWdpUkpQUVZsVEFTb1lsNjU1SmJONnpiOGNOWG9RUVFyV1BETURTSHJCQkdWTE11K2VJTWd4aDFMRkVXcHA1c1RkL01Lc3M2UzdLN2xpN3U1Mk5aS3F4RGwwa0hQamtOYThvdFVkN3pwRHJ4Y2pUakp3NWVQdHlpcWlaOVVyZUJxaWsyeVM1WWE5V3EwcEs4VERuVTB1eWxTMU9tTlpqblpNbEpsQklxU3JKVUdFZDZOTnNrcnpvQ1Fjc2RXNlNDS2dsSmxCcnVhWFpLL2JFaW9BUlV6eTdKWGtIQkZGZFVsZUJyMGJWYXdOUjdHc2xlZUF3aFVBTXBwWEZpVUF2UnRWck40QXBMS3l1TUNUUThMZUFTUFl5MXJyTjJKWWdJdnNiaXdSUldXRThLSkpBQ1paVnFyZDlBU0JVVTlhcmVkQUxGeWE2dTk0REJxaDVZQVJsVXBNMEJUSk50VlF4Tk5WSmFhcmQ3emVDV1g4MEF5T1lzdTFTNVpBYVlFb2FVSWhTcTN2eEJCUjAwc3AvZ0lMVEI0WTF5VGE4cHNxWFAyNWVEMGdWSFlkV3dqNnEyck50Q2VrV0JyV1ZhQmw1V1J0d2kxc1BIMTV5TVRWVFVTbU0wRDBwcGpBQ3FaYUpwN1RwQ1NSdFk0bWdjRUVFQVBERHdyQWpNQ1RPdzdNd0FFc2kwKzNUYmlLZDhCbktQREpTYlphak8zL0FKQjZ4MUZMSkxsbjNvU2pzeVV5VTFpWnlhRytrQWN5S3dkTlJLWTdzcVU2WDh4VzNwRFZLMmFpWXZTS3VNeVdwMjdOTEJ6NHc1cFBySmFXWmZmN3p4anR4OHFzZU1uRGtZbTNLS25HVlZ1dFlESXB5d1Y3aGlqa3lXb25YK2NBRXo2cFc4R2xDVko4cU1tVVpST1VKTUFKNnFkbHJOK0hySzZwSzhEaW9XUDV3TVU1RktXSEtGbWdhYW1xVkRsbFpmR0NRQk55YXk1Z0tpVFdxM2dhVktiZTZ3Sk5TVlpLOGc0RERLRm1pTVpYSnJLODNnT3NlV0FwcFRiVlVCVGswbGIxVUdFY3ZZMWtyZGlRb2FVQUk1alpOeFlTWkpscXJ5QWt5VGJWVUwyTnhZQWtDTWJzYml3Y3g1VnFQWEZ6ZVgxYTdFU25HSHVhTk5na1M1VGEvRUZtZ2tJYW1iS0hqa0UrZG9mRFlTbERXNVRlYi8ydmlIWllvbkp4OXdNdkl5OXVNV3BqNG12S1FDcGNudFU3dmRrQ1Q3SnROWDBnbU15bmkra1BUa2Ftck5TNVpQUU9Kb0pROHhRMUpSaDBtSFlQQ21tTUFEd2g2RUFFQUtsbU1zd2NJQUJRbHltVkF3R1lqSzVuZER6QUNNOEZtS01sTXFVMzRjNkZZbXlYck5Kd1loV0VZRTBsWUFZdWlSVkxFVUpqczRXQ3V4ZUF6R2RoWmo3emUrK0xOakJwU1ZDeTNlbGI2cTdsbU56c29PVEtPeXlpYWljdFFPS0x3OE82UzZVdFVqRHNITWVJRTdLTXJTc3o4NG83N2VkVDdNMjVnUytxcnZRQ2lYd283aThCZlU3cVdwNHpDR3E0UEtkNDdxYzBkVUw5dVh0Vnl5czNJOXFBMWdMeEsxb0ppaEZLTEZLTWlsTFd0UkxIaGlqekZsMlFBYXBjZ0NaVmRhSnlibThxL3dDR1U1clJPUmdUeXF5dFN6OHNWeXUyNDlxckkyYmt1dEhNRHlwS3FXU1NRc1RyQUhaTmxvcW9wOFVkSkIyU1N1a2lFOFRCeTNNNlAxZGx2QWw5bFpoOUgxTE5SOWF4Tk5tckZvZDBFM2RKaEV5Vk1CZ3dwV0pzSERjdlN1ZTd2dDQ5dTMxUE1JTXZ6R04yZ2xtTE1ZQ0NwZThLUFFNcFpiQWpGbU1BQXNUd2QySkJSNlBBQjZFRUVBRUVFRUFFUEFnZ0I2RUVFQVBCNkVFSW9tcEJqZElRUWdVUGFCdENDRHhVM0hOaWVnVjFlK0NDR3JpK3pIdis3eEVkNkU5MElJVGs5VVdQZDFpZ2pBZ2hsU2JOc2g2RUVLMTFTQ0NDREVJSUlJQmlDQ0NBQ0NDQ0FDQ0NDQUgvMlE9PSIvPjwvZz48L2c+Cjwvc3ZnPgo=">
-<!-- PNG fallback for older browsers (optional, delete if not needed): -->
-<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
     <style>
         * {
             margin: 0;
@@ -368,15 +363,94 @@
             color: #606060;
             font-size: 0.85rem;
         }
+    
+        /* ============ Accessibility (a11y pass) ============ */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+        :focus-visible {
+            outline: 2px solid #00d4ff;
+            outline-offset: 2px;
+        }
+        [role="button"] { cursor: pointer; }
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            top: 0;
+            z-index: 10000;
+            background: #0f1320;
+            color: #ffffff;
+            padding: 10px 18px;
+            border-radius: 0 0 8px 0;
+            font-size: 0.95rem;
+            text-decoration: none;
+        }
+        .skip-link:focus {
+            left: 0;
+        }
+    
+        /* What's New */
+        .whats-new-row { text-align: center; margin: 16px 0 4px; }
+        .whats-new-pill {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: rgba(46, 213, 115, 0.12);
+            border: 1px solid rgba(46, 213, 115, 0.45);
+            color: #2ed573; border-radius: 20px;
+            padding: 9px 20px; min-height: 44px;
+            font-family: inherit; font-size: 0.9rem; font-weight: 600;
+            cursor: pointer; letter-spacing: 0.3px;
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .whats-new-pill:hover {
+            background: rgba(46, 213, 115, 0.2);
+            box-shadow: 0 4px 16px rgba(46, 213, 115, 0.25);
+        }
+        .whats-new-panel {
+            background: rgba(46, 213, 115, 0.05);
+            border: 1px solid rgba(46, 213, 115, 0.25);
+            border-radius: 12px; padding: 22px 28px; margin-bottom: 26px;
+        }
+        .whats-new-panel h2 { color: #2ed573; font-size: 1.05rem; margin-bottom: 14px; }
+        .whats-new-panel ul { list-style: none; }
+        .whats-new-panel li {
+            color: #b8c4d0; font-size: 0.9rem; line-height: 1.55;
+            padding: 6px 0 6px 4px; border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .whats-new-panel li:last-child { border-bottom: none; }
+        .whats-new-panel li strong { color: #e0e0e0; }
     </style>
 </head>
 <body>
-    <div class="container">
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <div class="container" id="main" role="main">
         <div class="draft-banner">&#x26A0; Draft &mdash; Work in Progress &#x26A0;</div>
+        <div class="whats-new-row">
+            <button class="whats-new-pill" data-action="toggleWhatsNew()" aria-expanded="false" aria-controls="whatsNewPanel">&#10024; What's New &middot; June 2026</button>
+        </div>
+        <div class="whats-new-panel" id="whatsNewPanel" hidden>
+            <h2>Recent updates</h2>
+            <ul>
+                <li>&#127919; <strong>New: Instructor Inject Console</strong> &mdash; launch live, multi-step attack scenarios across every open dashboard (passphrase-protected)</li>
+                <li>&#128279; <strong>Shared simulation</strong> &mdash; incidents on Screen 3 now produce correlated alerts, map traffic, firewall logs, and threat intel on Screens 1, 2 &amp; 4, so cross-screen pivoting works for real</li>
+                <li>&#9729;&#65039; <strong>6 new exercises (38 total)</strong> &mdash; Cloud &amp; Identity (S3 exposure, AiTM token theft, CI/CD compromise, Kubernetes hunt) and AI-Era threats (deepfake vishing, auditing AI-assisted triage)</li>
+                <li>&#127922; <strong>Seeded runs</strong> &mdash; add <code>?seed=YOURCODE</code> to the viewer or any screen and the whole class sees the identical simulation</li>
+                <li>&#128274; <strong>Instructor edition encrypted</strong> &mdash; answer keys, rubric notes, and teaching tips are now behind a passphrase instead of one click away</li>
+                <li>&#128295; <strong>Single-source exercises</strong> &mdash; both editions are generated from one source file by a validating build script</li>
+                <li>&#128190; <strong>Progress saving</strong> &mdash; the lesson and exercises remember where you left off; the lesson now issues a completion code to submit in Canvas</li>
+                <li>&#9855;&#65039; <strong>Accessibility &amp; LMS compliance</strong> &mdash; full keyboard support, screen-reader labels, reduced-motion support, and CSP-safe code on every page</li>
+                <li>&#9889; <strong>Performance</strong> &mdash; dashboards pause when their tab or panel is hidden; the multi-screen viewer loads screens on demand</li>
+                <li>&#129529; <strong>Housekeeping</strong> &mdash; defanged IOCs throughout the exercises, incident dates that stay current automatically, a clock that actually shows UTC, and print-friendly lesson/exercise pages</li>
+            </ul>
+        </div>
         <header class="header">
             <h1>&#x1F6E1;&#xFE0F; Simulated SOC</h1>
-            <p class="description">A simulated Security Operations Center (SOC) with exercises. Work in progress.</p>
-            <div class="version-info">Version 0.2.0 &middot; February 2026</div>
+            <p class="description">A simulated Security Operations Center (SOC) with hands-on exercises designed for multidisciplinary use across cybersecurity, computer science, data science, business &amp; risk management, criminal justice, psychology, healthcare, engineering, and social science.</p>
+            <div class="version-info">Version 0.4.0 &middot; June 2026</div>
         </header>
 
         <h2 class="section-title">SOC Screens</h2>
@@ -418,10 +492,18 @@
 
             <div class="training-section">
                 <h2 class="section-title">Training &amp; Exercises</h2>
-                <p style="color: #a0a0a0; margin-bottom: 10px;">Practice your SOC skills with guided exercises and scenarios across three analyst tiers.</p>
-                <a href="soc-training-exercises.html" target="_blank" class="action-link">
-                    <span>&#x1F4DA;</span> Launch Training Exercises
-                </a>
+                <p style="color: #a0a0a0; margin-bottom: 10px;">38 hands-on exercises across Tier 1 triage, Tier 2 response, Tier 3 hunting, a Multidisciplinary section integrating 8 additional programs, plus new Cloud &amp; Identity and AI-Era threat sections.</p>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <a href="soc-training-exercises-student.html" target="_blank" class="action-link" style="flex: 1; min-width: 200px;">
+                        <span>&#x1F393;</span> Student Edition
+                    </a>
+                    <a href="soc-training-exercises-instructor.html" target="_blank" class="action-link" style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);">
+                        <span>&#x1F4DA;</span> Instructor Edition
+                    </a>
+                    <a href="instructor-console.html" target="_blank" class="action-link" style="flex: 1; min-width: 200px; background: linear-gradient(135deg, #f472b6 0%, #be185d 100%);">
+                        <span>&#127919;</span> Inject Console
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -429,7 +511,7 @@
         <div class="display-req-section">
             <h2 class="section-title">&#x1F4BB; Display Requirements</h2>
             <p style="color: #a0a0a0; margin-bottom: 10px;">Check whether your screen setup meets the recommended specifications for comfortable viewing of the SOC dashboards, whether running individual screens or the multi-screen viewer.</p>
-            <button class="action-btn" onclick="toggleInfoPanel()">
+            <button class="action-btn" data-action="toggleInfoPanel()">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
                     <line x1="8" y1="21" x2="16" y2="21"/>
@@ -445,8 +527,8 @@
     </div>
 
     <!-- Display Recommendations Overlay -->
-    <div class="di-overlay" id="diOverlay" onclick="if(event.target===this)toggleInfoPanel()">
-        <div class="di-panel">
+    <div class="di-overlay" id="diOverlay" data-dismiss="toggleInfoPanel">
+        <div class="di-panel" role="dialog" aria-modal="true" aria-label="Display recommendations">
             <div class="di-header">
                 <h2>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -456,7 +538,7 @@
                     </svg>
                     DISPLAY RECOMMENDATIONS
                 </h2>
-                <button class="di-close" onclick="toggleInfoPanel()" title="Close">&times;</button>
+                <button class="di-close" data-action="toggleInfoPanel()" title="Close">&times;</button>
             </div>
             <div class="di-body">
 
@@ -560,14 +642,26 @@
     </div>
 
     <script>
+        function toggleWhatsNew() {
+            const panel = document.getElementById('whatsNewPanel');
+            const pill = document.querySelector('.whats-new-pill');
+            const show = panel.hasAttribute('hidden');
+            if (show) { panel.removeAttribute('hidden'); } else { panel.setAttribute('hidden', ''); }
+            if (pill) pill.setAttribute('aria-expanded', show ? 'true' : 'false');
+        }
+
         function toggleInfoPanel() {
-            const overlay = document.getElementById('diOverlay');
-            const isVisible = overlay.classList.contains('visible');
-            if (isVisible) {
+            var overlay = document.getElementById('diOverlay');
+            if (overlay.classList.contains('visible')) {
                 overlay.classList.remove('visible');
+                if (window.__diReturnFocus && window.__diReturnFocus.focus) { window.__diReturnFocus.focus(); }
+                window.__diReturnFocus = null;
             } else {
+                window.__diReturnFocus = document.activeElement;
                 overlay.classList.add('visible');
                 updateDetection();
+                var closeBtn = overlay.querySelector('.di-close');
+                if (closeBtn) closeBtn.focus();
             }
         }
 
@@ -618,5 +712,71 @@
             }
         });
     </script>
+
+<script>
+/* CSP-safe delegated event dispatcher + accessibility helpers (a11y pass). */
+(function () {
+    'use strict';
+    function parseArg(tok, el, ev) {
+        tok = tok.trim();
+        if (tok === 'this') return el;
+        if (tok === 'event') return ev;
+        if (tok === 'true') return true;
+        if (tok === 'false') return false;
+        var qs = tok.match(/^this\.querySelector\('([^']+)'\)$/);
+        if (qs) return el.querySelector(qs[1]);
+        var str = tok.match(/^'([^']*)'$/);
+        if (str) return str[1];
+        if (/^-?\d+(\.\d+)?$/.test(tok)) return Number(tok);
+        return undefined;
+    }
+    function splitArgs(s) {
+        var out = [], depth = 0, q = false, cur = '';
+        for (var i = 0; i < s.length; i++) {
+            var c = s[i];
+            if (c === "'" ) { q = !q; cur += c; }
+            else if (!q && c === '(') { depth++; cur += c; }
+            else if (!q && c === ')') { depth--; cur += c; }
+            else if (!q && depth === 0 && c === ',') { out.push(cur); cur = ''; }
+            else cur += c;
+        }
+        if (cur.trim()) out.push(cur);
+        return out;
+    }
+    function runAction(expr, el, ev) {
+        var m = expr.match(/^\s*([A-Za-z_$][\w$]*)\s*\((.*)\)\s*$/);
+        if (!m) return;
+        var fn = window[m[1]];
+        if (typeof fn !== 'function') return;
+        var args = m[2].trim() ? splitArgs(m[2]).map(function (t) { return parseArg(t, el, ev); }) : [];
+        fn.apply(null, args);
+    }
+    document.addEventListener('click', function (ev) {
+        var dis = ev.target.closest('[data-dismiss]');
+        if (dis && ev.target === dis) {
+            var f = window[dis.getAttribute('data-dismiss')];
+            if (typeof f === 'function') f();
+            return;
+        }
+        var t = ev.target.closest('[data-action]');
+        if (t) runAction(t.getAttribute('data-action'), t, ev);
+    });
+    document.addEventListener('keydown', function (ev) {
+        if (ev.key === 'Enter' || ev.key === ' ' || ev.key === 'Spacebar') {
+            var t = ev.target.closest('[role="button"][data-action]');
+            if (t) { ev.preventDefault(); runAction(t.getAttribute('data-action'), t, ev); }
+        }
+        if (ev.key === 'Tab') { /* basic focus trap for the display-info dialog */
+            var ov = document.getElementById('diOverlay');
+            if (!ov || !ov.classList.contains('visible')) return;
+            var f = ov.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]');
+            if (!f.length) return;
+            var first = f[0], last = f[f.length - 1];
+            if (ev.shiftKey && document.activeElement === first) { ev.preventDefault(); last.focus(); }
+            else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
+        }
+    });
+})();
+</script>
 </body>
 </html>

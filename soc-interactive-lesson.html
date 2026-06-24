@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOC Analyst Foundations &#8212; Interactive Pre-Training Lesson</title>
-<!-- Inline favicon — no files to upload. Paste in <head>. -->
-<!-- Crisp vector for modern browsers: -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CjxkZWZzPjxjbGlwUGF0aCBpZD0iYmdjbGlwIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjYxLjQiIHJ5PSI2MS40Ii8+PC9jbGlwUGF0aD48L2RlZnM+CjxnIGNsaXAtcGF0aD0idXJsKCNiZ2NsaXApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTYuMDAgMjU2LjAwKSByb3RhdGUoMCkiPjxpbWFnZSB4PSItMjUwLjg4IiB5PSItMjUwLjg4IiB3aWR0aD0iNTAxLjc2IiBoZWlnaHQ9IjUwMS43NiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgaHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvNGdIWVNVTkRYMUJTVDBaSlRFVUFBUUVBQUFISUFBQUFBQVF3QUFCdGJuUnlVa2RDSUZoWldpQUg0QUFCQUFFQUFBQUFBQUJoWTNOd0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFRQUE5dFlBQVFBQUFBRFRMUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBbGtaWE5qQUFBQThBQUFBQ1J5V0ZsYUFBQUJGQUFBQUJSbldGbGFBQUFCS0FBQUFCUmlXRmxhQUFBQlBBQUFBQlIzZEhCMEFBQUJVQUFBQUJSeVZGSkRBQUFCWkFBQUFDaG5WRkpEQUFBQlpBQUFBQ2hpVkZKREFBQUJaQUFBQUNoamNISjBBQUFCakFBQUFEeHRiSFZqQUFBQUFBQUFBQUVBQUFBTVpXNVZVd0FBQUFnQUFBQWNBSE1BVWdCSEFFSllXVm9nQUFBQUFBQUFiNklBQURqMUFBQURrRmhaV2lBQUFBQUFBQUJpbVFBQXQ0VUFBQmphV0ZsYUlBQUFBQUFBQUNTZ0FBQVBoQUFBdHM5WVdWb2dBQUFBQUFBQTl0WUFBUUFBQUFEVExYQmhjbUVBQUFBQUFBUUFBQUFDWm1ZQUFQS25BQUFOV1FBQUU5QUFBQXBiQUFBQUFBQUFBQUJ0YkhWakFBQUFBQUFBQUFFQUFBQU1aVzVWVXdBQUFDQUFBQUFjQUVjQWJ3QnZBR2NBYkFCbEFDQUFTUUJ1QUdNQUxnQWdBRElBTUFBeEFEYi8yd0JEQUFVREJBUUVBd1VFQkFRRkJRVUdCd3dJQndjSEJ3OExDd2tNRVE4U0VoRVBFUkVURmh3WEV4UWFGUkVSR0NFWUdoMGRIeDhmRXhjaUpDSWVKQndlSHg3LzJ3QkRBUVVGQlFjR0J3NElDQTRlRkJFVUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDRlSGg0ZUhoNGVIaDcvd0FBUkNBRGhBT0VEQVNJQUFoRUJBeEVCLzhRQUhBQUFBUVVCQVFFQUFBQUFBQUFBQUFBQUF3QUNCQVlIQlFFSS84UUFZQkFBQUFNRUJBWUpDdzBOQmdjQkFBQUFBQUlEQVFRRkV3WVJJek1IRWhRaE1VTUlJa0pTWVhPQ2tySVZGeVF5UVZGVGNYS1QwUlluTkdKMGdaR2lzOEhTMC9JbU5qZEhWbU4xb2JHMHd1SHdHQ1ZFVjJTRUtEVkZaWU9qNHFUL3hBQWFBUUFDQXdFQkFBQUFBQUFBQUFBQUFBQUFBZ0VEQlFRRy84UUFKeEVCQUFFRUFnRUVBUVVCQUFBQUFBQUFBQUlCQXdRU0lqSVRFVEZCUW1FRkZDRlJVbUwvMmdBTUF3RUFBaEVERVFBL0FQc3NJSUJWTkxaWnNZQUNHYVBReEhRQ0FCcFdoR2FBTG1sM1Y1dkI2N1ZLTW10N2NBSEhqRzhBOWEycGc0VVVqaUR0N0h0RlBpaDRRbGNyNlJWM0xrYmZaMmpuWVJsYldDQzlSVnlkMjNrdy9lSnRoVmxJaTh2c3lhcHlOeUdEdXQ0UCttZmMvVVA4VWRwNHBGNEpQbmlFckdYMVRRb3prRG1MR0RVVFRCMVJ4N2NmaHh5eUxrdmxLYTl2S2w0OEtjNW9ITUNBMWhiU05JK3l2Yllhc09LOHZHclVVVDhrelJGUk1EWW9tdEtWU21raXo2VFM4TUV4S2tLaWJMVk5Qb2ppR0FVMUp0a3FLcFk5dVh3ZU9SY2o4cm03UnB4ZUdiYzdFL0xIUktlc1VNU1hkN1ZkcnBRY2x6Qi95N0xmNmhMN1VYWWVNYldLNDRSOU5TeWZiUDIrK0ZoU01tb2x0S21sNEJ4WExjcmZaMzI3MGJuc2Nab2NHbVlJazNQTG0yZVAyL3pDdGFtWXc4TTBJckE0QUlJUnNmVkNTelFBRUVFRUFHbWFFUXRROU1QV2FBQkZWSW9tMmFseXlEMVI0SkxZMUpyRG5QMmpBNWRWaWJPK28zdENkOFJ5b3FPemNvcm1OM2Y4Z0JJUlN4TnVwbk8zUzBSWW04Sk9UTW8xbTgzd0hGSXNtN0pNbFdoei9GOFlxcjY5VEZwaWxvb2NkV1BpeXVjcGV6anlNcU52akgzU1lqR1ZIM2k5NTZSejBTNjFXOERESkszdXMzZ09pck1HcmJ0eGgxWk1wU2xMYVJxeVd0U0RaNlVrRVdQTEVhVXFwMlRyUEpEb1BSVG1XcW9Jc1R6Z2NtZVlFb2FYZWdJR21yNFVKTXMyMVZ1OXdCWWlyemE4d0hSVm04WUFITEVtQWFhdmhRWXhoR2w1U0FIbDdKNHZwQWloSmdHaXJxbGJ3R0FBVTFKVmtxRWJzbmkra0dtTGxQRmh5WnBWa3FBQ21UU0Q0ZkVuaUhxMU5Vclo4VXdRanJkazJXcjM0U1VJejdHaktVWmJSVzl4aVNVVUxLVGJpVmR2L0lkS1VsSmwxYlFaODZueUZhVnpEaTJ3ZUxKUExjblV2T2tNdkl4ZE9VV3RqNWtibkdTY1UyVE5scVhlNFA4QU0wT09kcWlzcExsbkRWMnRlSzNkTnZsbTd3U2ZZekphbDN2L0FFamtkeVFrbXdpVENNSGhTeTJBZzh4Z0I2RVBBZ0I2SXl4OG5aWjh3SE0wTklXck8yckhBQW5jdFRKclc0NXo5MFJJM0VzaVJaTFpqcUgwTStjZXhKNVpDMEZIblNudk9IZ0ZUZkhxYmFxcVRKZzY4Ykg4a3RxK3ppeThqeHgxajdnUFNpczZiNFR0d25jc3kxL29vU1pOYXJ6TjRHbUxMdFVocnhaR3lVWVJWaXk3VUVucFNab2FtV1phcThnQlRYZTF0UktyRVZSUFdwZmJCQ3FwU1pvQWE5RjFxUVk3bHltMVYxZTREeWt5bTFWdTk0SExFMXFWNElNTlVBdlJkYnJBNU5VREtXYmE2c1NVeE0yVTN2TUVrRFdUMXVzQ2QxWmw3ZUFCeXhKZ2pKbnlteS9vNEw3SjR2cGdpeVV3QmhDZ2F4SmdhbXJxbGJ3RFVQTXNrdVdjQlRDblZWc3B2TEV0TXNvTk1nbEpsQWFhbXFWRUFaUWt3UkpxcVMwcVp5d1ZaV1l0S1M1Wnc2UWxKbEFDejBkaUpGRXNuVWJhSjVzZmZEdEdZd3pPQVo4N3FxdXkzUU9MYkRZa3g5UmxKMzdPMzlyd2pMeXNmU3UwV3hpWkczR1NaanNUczVuL0FNaVNRckNNRFUwaUpwUzJhQW1XYkJ4TzRRSUlJQU5hRTFyTklkV09CU2QrWTVvNU96V0JyZHZlV3F1N2M4Y2RuSmowUVk4TE5xWlprYmlrSExLbkx0VmZzQjZKZGFxRERlamJqR09zWG41eTNseWVCaWlrb0RVN0d0ZFdFN3B6TFZYa0JpbUZUVnZaZklFa3BoeDZaVW5nZEVvUDFUamo2bTdKN2duYktLbTd4V2Qxb3g0dUdtazBYZkZGYUYwQWVYMXl4MjI2Mk9iR055TXpQRldHalNVaHMza3h2Q2lJWWlxdHI4UVlyMXlNTWlpMzRNMDFQL0dyOU1QNjQrR1QvSzVQbXEvVEJwVXUwVzVKbm1CeGpEQ091SmhrVFdtOWJPWHlWZnBoR3dqWVgxZnhacDhncXYwd2F5SGtpMnhSSlZXMWwvOEEwSkthc3dZZjF4c01uK1dhZm0xZnBoaHNJbUdTOTYyYWZtMWZwZzBrUEpGdW9pTEZ5bGF5KzJNVFV3a1laRkxMcmJwOGdxdjB3OHVFakRJbitMTlB6YXYweE9zaDVJdHdkemd3d2hUQ0poa1Z0ZXRtbjV0WDZZYXBoSnd5S2ZpM1Q1Q2F2MHdhMUd6YjF1eWJKTG5oenViVkszZ3hFdUViREluWkpZTDAvTnEvVEhpbUVURElyK0xOUHphdjB4R2xSNUl0MUVkNHRMSkxuakRIakRIVDJFV3RKc0hpanM1YnRSR1lYRUwzYzdhMmZEVU5Ud2QwNG85VEtHNVRBM20wVHFuT3EyMVdTOGJPOXdzRVNvSXlXQjNzN0pYN1lsQnFoSmdqVFZicldiOFFZNTZOTnNrdnNBMEdlMUljOTFOKzE0d3hGT1dIS0VtQkp4MmpxYU10Wkw2a294UkxIVDdvZVpvckZGMzVRalR1U3ZjN1E0c3hXVkRFdVcvSExWNkN6YzhrZGpnaDZFSzFoaHpNSVdzVWlKcTVhOXFLS2NqeVJhWTh1eDNocW50OXA4SXFCZEkwY0czOW1YK29YUGFLT2JzYml3WlE4cEdhUFZqUzBiVVJVeXlyVlZPejZBMEdhZWluTXRWZVFRT1U3R3RkWHUvU0RGMGlCU0kwdUF4RlgvVEs5Qm9sREJhTXcvcnhZVklySEk1TVVvOUJUeVhWMXhtbFRQbmJpazkrcHAyOS9NTmZqbEpxS1VOUmNrb3crdThKZDFDTkk2dXBFMjR1S1dxdW9wTkRHVnMrRVozc1RTZXQ3RVZmKzhHeC9lUlM5STFTazFGNk0wb1JkdXJrSmQ0ams5Y21jVnUwcjAxTjk1Z2FYOFY5Q1JqeDJWUTJGL0J3bmFwVWdUOGlTb0Q5ZUxCeCtVQ2ZtVCtnU1RZS2NISDVIUTc0M3BFYnJXWVBMMzFIUTZYeXZTRGdia0IxNE1IaXYvWDA1ZkVuOUF0dEg0NURLU1EzcXhSNStUZVhOU3NtT1N2dWFXVk4wTkhCTGdwd2Nma2xEdmpla1dlQXdlRHdDRzlUSU80dTdrNXAxbmtJbHhTNTlMUXZINm01SnFaNXFNMEJ4cHZGOU1NVVRtMnFYMnhKUk40SUtnTlJMV3BCeUtzMEdFSllreGF5NVlZSG1OTXNrcnZkaHlpSGd0V0VpWUZBa3hGZWJ4Z1NpazJ5UzU0eVduV0c2ajBJanlrSGhqaThSWjRRTzBpeDNZekplTXpTeGplN1YzeGFjRnVFT2oxT25OVHFaTWRueDNxT3U2ckdaTXo3dGxXbGduMEcwVnZXZGtsVVpYOWUrUG43QzlSN3JjVWtoMkVLaWlXUko1U3dqNjZvN1ZFMk5wemFNUStkbFhmcUgwT00yMlNrcFhCQkdmQ0puZGorVGJwcytjVEhzaVhWZUliRVVvbERYSitjYnQ3UktzVHlXc3JFdVJZeWhVc0I2c3pCWFIzd21SbDVRdW9Bam9xYXBVT1dQcWtyd0RlRGFyV0JPNVphMHBXOENwU1hFMlRMSnE2d1hoQlZoMFNOcjdidFJTQlphTnJUSE5xYk53YjlUUndaMXY4QWpab1lGemxxN0lRYlh3QkRLYS9vcjlLMWJ0THhuRmRVVmxqcHg5WEhpSjJEbUdUbVhvM2NlT3R1akF5SmJYS21sTE10VlFVQXUrTEJqR2xDOXpnK3h1TEVPUEo1VEFZaXFyZDVHcnRPUTBUQ3B6YlZXNzNCUG5FR2tIWTBCaVBnOGpWNUcwYUJETWRpRitEaUkvcGhUNUJFV1RDdENzSVR5aTVlb2FOdThOVFR4OHFuVmJiUlUxaldrYm0wNXVFVm5ZaG05YktJL3BoVDVCRWE4VXVVOFgwdzh1eUlkV0lGb3pzZ0ZFZnZ4aDNPSjlRSGxvenNoZnkyaFhuQ2ZVRGJNV1Z4WWtGTURjZU5FZDBucDJSVG1xSnFLWWhaK0lYRktjekdaMnNaM000ZmpaVHhmVENNYktlTDZZaDBtZVZZVEFZaS9KS3BwNU83S24yNW1GS1V6Q05heHJXdDRhZ2hsYXBoaFVvUFJKODZtUk9KS0tQaWQ4ZzdKdFVNbDVYY1kzZ0hXb25TaUIwdGMrcWRHWWttOHBwN1JjbWNxaE9BeFc1MkRJTmk5QUtNeCtEeFdKeGQyY290R1ZIbHM0anlWaWhpSnRaWFd4amUrMXJjNEhRdDJoa0oyVGo1QjZLcXk0VThPeXBIb2lKck1obUVZWnBHZUk3R2ZDME5XTVZjWlNiOU15bXlTNVlrbExLRVl5Y3UxU0VoRTh3S3NCV1QxcVY0SWtVTzh2TU5mVW5HeWVKS2hDZTFOaU5xcTk4UzFqekxKTGxuR0ZZVEtheE9sc2U2M3VEaVk4cUtWb3hCK0liYTR1Nll3L2NJenV0N3ZhbERhN0lBMkxsSWFLd2lEeFZ4aWI3RG9kR2NwYWM1M2xZcWMxTmpPNFp2Y1kxamN3YlE5ZUdSdlpPUHNUb2hhUXBOMk9kNlhSTFluTTBqR0dhemdhZXJ4MU5hTE5EY0F0QnVvTHU0djJXS1BpZCs5RVVhbk5OM2MyaGpPOEx6UkdpMENvazVxUXlqemltN1RMNC9iS0g4bzNkRXlyRlhHTHVUNXRrbGVDZzdJcEtYZ1RqdisyL2VFaGY4bTg0S0JzaWorc3pIVWxienNiOTRTQzA3VVd6NnVsZ1ZKTndTMFo5eGwrY1cweStxMWdxR0JkWDFwcU1wcFhtUmwrY1crUjV6ZmlaZGtDSXB5dzVRa3dEVFUxU3Q0SExLU3dxVFNxYW9kcWpDc3VJeTkrUWNVcWZoUk5oYWt0OGQvTFlLcjBkcmRWbG1XdHlrbDRyNEFnT3NJWW5vM2ZJcEw2Mlk5dkNudDIvdEFoNlkweTFBcGtxOUcvR21zWG5wY2pscFVtMUVaT3l2YnZjQjVTekxWWGtBeGlpUWNYU0lGSlB2YmlQdU5Yb05CeW1sY1dJTklpellERWZCNUdyMEdnUXluWW1tOWJkOThIMVlVK1JSRzJGTU1aMklmNE1vaitsMVBrRVJyMkxLNHNXVDdJdDlVZzJrUWpmbXJzWjNocXdpUDFHK3AwSG84N1pUR1ludEhVbUxqRkpucXJxN3JXdHpNOThVV2swYXc3VUpodlZpT1BMazh1YW0wM0N4WGN4dEZiR1ZWWi9Hd0o2YkNWeHIrRUNuOUdhRXcyYkdIbnNoUWxpNG8xR1dWOTd1TTRXNWhranZDcWU0YTN4TjZqaXFrQW9qajQ1RUNWNHl0V2pGWTN0MiszYnRXYm1zZFhCUGd3ZFlraTUwOXBnKzlYMzEvSXg1UkljelRKa3IwTmJYMnplRFF3YlZlV1NWMy9Ed0E5ZFI2Yk1jam1BaUJxUGVVMFpqY1Znc3NqQ0w3YVpqRjd1ZXRqZjExQUQ5c2ZJWjFIVFVvOUgzMTJqS0I4Y2o4YzIxT2J2Tll6T1h4cy9XTnlLVUJVSkxXbXBjc2dONURTTENJYmhKcHpnOGZFNFBoTGdqdyt1ZmFFaUx0VVkyTDMyTjBLZkZhT2pHc1A4QVI1SjhsUU9DUldKTzZmYnZXS3hINEN0ei9EVUwzaGVRZVl0ZzNqcnM0dTJVcUtPYW1KdGNiUm56Y09rVWZZNHgrZ3pqZzN5VjVmWWM1UHFaMUR4QWp5WXBUR3JibWJuMGt4S3ZnRGZYWXZMcTRWTHNKc1RwL2sxQzhIRGsrSnFQNU96WHBhek1rVnVrbGJOQkdNMG41bzFqQmJRS0dVRmdPUXV2WkQ0cFVkNmVzWGJLbStZak80d1pic2Z5cFBPRTZtVVRvOG5MZ1dlVHRkcm5VckxWM3U2Mm9ieFBtM1Y1MEFTNDhSSGx5TWVMNnl2QnhxV1V1bzlRNkRweE9PUEtqczdxTE1SMmlKbERZM2laOElzQ0tVc1l0c3ZpZmNIRGxQOEFYL3dOQytpeHRTWmtsVVUxVXJ0UWpEazhsdWRnenJaSlN1cy9HZkNXSDd3a0x2QzNqKzdYSkpLOHlaUG9NRkgyUlNVdkFuU0wvYmZ2Q1lJOXFGbDFxNm1BK1gxcTZPKzR5aTZpbFlHVTV1Q1dqS3VzeUFuN1dpMnovT0JrazlGODV1QW5mODdlQWlKUE9CS0pUQWh4QWk2UUVxdmhid0dMcEVGV3JMbUJDdXp3aHlmdGFPbjl3Q1lSOFNieFlsUGJLM3M2ZThPMzlUUU1kZEsrdEhNamxOTFdsSzhnR01FcEsxb2lKMzFyZGlRS1V1VTN0Mk9mU0EyVFFHSStEeU5YRTVqUjJoenFTRis1dUkrNDFlZzBGRU1wMkladld5aVA2WVUrUVJHdmV5ZUw2WXhyWWxtOWJkOThIMVlVeC9Nb2piRXhaUHRVUTYwWWxoK2djY2h0SktPNFFvRzdaYjFJcUl1aGl0TmlGWTJ0amMzY3p0WlgzTXdydFBzSzZ1RWVqZnFRb3JSZUs1YS9uSVJlZGlteEttc2JVeXJoWnBiaWo2UU13YzEzUWRYYVpreVNhYWVQdHprS3d2NjJDSTE5RVNqczV0QllLckJLSHdhajAyWmtic1FpNmhPMU9iUzJyZ3JhMGR2RnliaStnREpod1JKRk1BckhtV1NYTE9BS1djeVZ5L2FDV2lWSk5HeUFrR1ZMdWhuY2V3SjBCajhTVWlhcmk4T1NpaDhjNmJtdExUT2J1NXU1NzFRMHdSRnI2eTVZQnhrZ1ViZ2NIbzNEVTRIUjV5VGRuZFBlZHRqTjB0TTF1ZHJlRVJjSUJsWEtoTVplblZWUk40VGNGZHVUdHNhclNLZGdwcGZIWTNoT3BkQTM1Vk5SeWNEdHlVaEUyRk1TbytMcDB0emQ4WExDWitEMmtYNk5XNkFuWCt5OGRlS3M3R3QrZm9sZ2xjMVg1NVVlVk1wWEpqckdhWTJLdytabGJSWGRsOGI3ZzRkN3ZiOG0wZERZem05YVp5bFhtV1BQN1dEbGJMWXZyZXc3d21YN2ZtTkRSN0Q0YS9DMEpjTmMxVXJ6SmsrZ3dValpGSG00RTQ3L0FMYjk0U0YraGY4QXkxeTl6SjlCZ29PeVFsZForTytFN0cvZUV4RWUxQkxyVjFjREtzdkJMUm53bVFFK2NXeVJyZFlLamdQbDlhdWp2aE1qSjg0dW9EUjZob3F6TDI4RGxEeXdGNi85Z1R1YVplM2dVSEZTMXF0NERGMGp3ZWwwaUFMS0NGZ3lCbmZDSE4rNWl2OEFCVnlZNmxMaUtqZjZ6am1HTkt2UjM2VkpXeWFqTjM4d3J5aFpnZkhsdGJvaklqcmNxOHZWdnpZT29SSlVCVFVsV1Nva0ZGNmxGS3BMc2xlUWNRNlJka3dHSStEeVpYb05FdzNaUEZoaGlwU1ZIRjV1MUNOSnlXc3FxQWhrbXhETDYyVVIvVENueUtJMTR0blphc1lSZ1ZpZlc4d2tSM0I3SEZjbVRlM2xpemtvZmFsT2FyYTUrOGNsWHZzRzhxZGsyV3IzWnhNL2RFT3BLR20yU1YzdXdZcWFVbVVJNmZZMWxxeElFR1IvWTNGaHlpazJ5UzU0U3hwbGtseXo3ME5LWEp1TEFZWXFkaUFtc3JxN0Vvb0NzZlZKZllCc1ZpdUZaL2Z2N1FsQ1hWMmZYaEpPU3phRVViaTUxRkdOemVKakJ0anVsTEZTajFCNFBFcVlRYWxiemxHVVF6dENFVXhTbXp0YXpHWndOYTBXOHBnYlJFWXNKd0p6T3ZaVCtWdnpmTE5Hb1lURi9XOWp2Nk5WL1lBVWRvWEI2TjBxak1kaG1VWlpGejQ2NURxWXlaTTliY1ZuQzNPTzNHSVVrL1ExOWNYbVlxN3ZpSjBWeUVOaW14V3Nxek43NG1VaXhqeFovc1hTK3RLNys3SG5wc0hGMlhoUHVFaDN1OXZ5YlJwOUFhTVF5aVZGWGVCd2RWNFVkMHptUGpyR1laUTVqTnJhMXRXWVJNSlZESVJUV0Rwd2lMNVFtbW1zeFltVEdZVTNlYXp4VkFqTCtScnhkbUZyL3dCenVXc1V5WkxvTUZGMlJSUFdaanMyODdHL2VFc3d2aUx0a3lLY3JWa1lURTlxek5VTWEyU0ZKT3E2TVB3Y1FMc21JeE44U25rSnVLbTdVamVHdXB2aUtDbnVtWFZmTURhWHJWMFpWU3ZNZ0p5OUl1QlY3SCtBUWFPdzVLQVViaDBIUy93anNtanltTXovQUt4TGtLM3VzRUpqMUZSUzFxb1R3bE10ZFlISXF6QTVROHNCZ1UxQkxjU1RIeE5MMjdCRUttcXJhanMwWkpNaU9mY1ZtRlYyV3NaU05ianRjcEZhS2dnU3JnQ0dKNnR6eHVaU0pES0ljcDdUYkNwNG92cXBHSFpVMFVkOVN5ZDdVZGxCMzROejZ1SDlRdDhxU0FVU21DTVUweXlWKzJDNDB6aSttSEdTR2l6UmlocXhKaUlDaXJxbFFqS1RWcFNWM3V6Z0NpNFRxQVFlblRtbWs4OWpSRjNySTZ2eEM3WWhkT0kzdnNyK0FVUnpobUh1aHlPUXd4NWNxUnVTZTBRbkdJb1loZVUxaC9lYTFvM2N5U1YwQnBtbDJTdklFeHFXVVdJS1I3WkUva3ZDdk5wL1dnZnFqMlFGMzZtNGQ1c243Wm8zVlJTWlpKY3M0SklTa3lnL2svQmRmK21HSng3WkVwby9ldEN1YW45YUFSS2xtSDl4aHJ3L1AxRzRNazdPNkxWbGpuVEppa1RZeXRyVzJvM1Fwc212YnNaQnNsNlFQTHlqRHNIc0h0SWpGMWs1NUNHMjB2SFppa2I0MjUvRXdSU1hyOElsSFg1Vm1pK0VMRFJINGJsMENna09lWGZIYVRIeWRoZHR3VnFEckowZzJSS2QzUmVGYzFQNjBhM1FtanpyUmVpcmxBblpPemQwV0VPZkY3YzI2YTN4dEhWOWpjWDBCTzhmNlRHMytXSUdwRnNpZnlTaFhtMC9yUnlxUlU5dzIwWGh1WFJ5Q1FweWRzZGhEcVNTbUtRemN6TkNtWWZRcXltcVN2QkNqVUZjWTNBWDJEeE5LWW05b3RSUDcvZDk3U0kzai9sUGovTEVJSlM3RDNGb2M3eE9HVWJoVHk3UFpHSEl1Uk1tM0w1MFRQVkRzaWZ5U2hYTko5YVBNQWNZZnFKVWtqT0RPT0tXanU4bVdjc2YzbXRxNEdzcU96eHRHNXFLK0NEU2xyOElqSDhzS0xTSFpDcHJmZXZEclRjU3lZdndUUWs2UWJJVzlTb3ZEbE9TVDYwYm1pVHpnYW9WUk8xUzVaQkhrL0ExL3dDbUlMZjJoYVNJNUNxazVRQk5UYUhYUk1STlRGNERNYWRyUGVxYUxYZ3p3WHd5aEszVmQ2ZWVxMGRVcngzbys1cjdiRnJ6MXQ3cmRJMGd5OWpOQ1JTMXFvU1ZUYWh1NVp0cXJlZEFTZ0ZaTFdwQlRiRVFZMTRzN1ZKUzA2WWE3MnRxcnF3NU5PYmFxaFBDZXRTdkFvR0xwRmtvd2d4TjFVZWZDZk1LMjZtbXkvTEYzYzBwU0thZThLT1BPdWF4MWQyRGIybnNrQkQydmdDR1ZzMlBRaFhLVnVlVW81U25xeFlqQmlpWlRreEt0cTFndHQzUEhMWlZkdCtTT3JQM2RUVkE0TEYzREoxVkU2dklPT2NWVlZXeXV4dHdsdlRaZ3pqckxWNnQyU3RLU3UwOTJFN21sMlN2SUVoTXNvTlVKTURFRkVSWTAyeVM1KzhESnF2c1g0NGxwa2xpUWp1NXNtc2xlZU9OaEU5VmZxYlU5UmVUZFZjY3VKbE5XTEwzVlZlYXNXRlFrd1JES0szUWhERThmWkZYVXFEYzVEMGlzbG9QaG9TcGg2cjhpaHlrWnprSWM3d2lZcEt5WXVaalcxTXpWL0MwZlRhS2NzT1VMTUZteE5XRWwvdEorQ2hYT2QvU0dHVTJSMTBxbkN1Yzcra2JnWlZWS3lCMHlTd3UzNE5xd1lxZXlLZHRYQ3YvQU0vcEJ2OEFpUDhBQndybk8vcEc2aUlZMlRjV0cyR3I1dGpsQ3NORVdwVTVVaGZuYUhkVlhQRklndVI0UlQycFd0YXl0akc1OUxXZUlXWXBOa1VuYXlvVjNkMGdiNXh1THVuTHRkWUpBTmg0MU13Vm1wOTFOZUZhZlpGbEU1bVM1TVl0M1ZucnhNMmtXMVJXV0JMR3liaXc5RlBXcTJuOElyTnFZVkpWTHNuNGdrcG5tQkNPdFpXb2dKQ3lxU1lpU2xmWlh4QTlFc3kxRWdNRFV6ekE0eGhIZUN5N1VHaHlTa1JWVFRhRm5MVTBhZXJyMFljcGkyWGN3V2dyYTJCanFpbWdpUkpQUVZsVEFTb1lsNjU1SmJONnpiOGNOWG9RUVFyV1BETURTSHJCQkdWTE11K2VJTWd4aDFMRkVXcHA1c1RkL01Lc3M2UzdLN2xpN3U1Mk5aS3F4RGwwa0hQamtOYThvdFVkN3pwRHJ4Y2pUakp3NWVQdHlpcWlaOVVyZUJxaWsyeVM1WWE5V3EwcEs4VERuVTB1eWxTMU9tTlpqblpNbEpsQklxU3JKVUdFZDZOTnNrcnpvQ1Fjc2RXNlNDS2dsSmxCcnVhWFpLL2JFaW9BUlV6eTdKWGtIQkZGZFVsZUJyMGJWYXdOUjdHc2xlZUF3aFVBTXBwWEZpVUF2UnRWck40QXBMS3l1TUNUUThMZUFTUFl5MXJyTjJKWWdJdnNiaXdSUldXRThLSkpBQ1paVnFyZDlBU0JVVTlhcmVkQUxGeWE2dTk0REJxaDVZQVJsVXBNMEJUSk50VlF4Tk5WSmFhcmQ3emVDV1g4MEF5T1lzdTFTNVpBYVlFb2FVSWhTcTN2eEJCUjAwc3AvZ0lMVEI0WTF5VGE4cHNxWFAyNWVEMGdWSFlkV3dqNnEyck50Q2VrV0JyV1ZhQmw1V1J0d2kxc1BIMTV5TVRWVFVTbU0wRDBwcGpBQ3FaYUpwN1RwQ1NSdFk0bWdjRUVFQVBERHdyQWpNQ1RPdzdNd0FFc2kwKzNUYmlLZDhCbktQREpTYlphak8zL0FKQjZ4MUZMSkxsbjNvU2pzeVV5VTFpWnlhRytrQWN5S3dkTlJLWTdzcVU2WDh4VzNwRFZLMmFpWXZTS3VNeVdwMjdOTEJ6NHc1cFBySmFXWmZmN3p4anR4OHFzZU1uRGtZbTNLS25HVlZ1dFlESXB5d1Y3aGlqa3lXb25YK2NBRXo2cFc4R2xDVko4cU1tVVpST1VKTUFKNnFkbHJOK0hySzZwSzhEaW9XUDV3TVU1RktXSEtGbWdhYW1xVkRsbFpmR0NRQk55YXk1Z0tpVFdxM2dhVktiZTZ3Sk5TVlpLOGc0RERLRm1pTVpYSnJLODNnT3NlV0FwcFRiVlVCVGswbGIxVUdFY3ZZMWtyZGlRb2FVQUk1alpOeFlTWkpscXJ5QWt5VGJWVUwyTnhZQWtDTWJzYml3Y3g1VnFQWEZ6ZVgxYTdFU25HSHVhTk5na1M1VGEvRUZtZ2tJYW1iS0hqa0UrZG9mRFlTbERXNVRlYi8ydmlIWllvbkp4OXdNdkl5OXVNV3BqNG12S1FDcGNudFU3dmRrQ1Q3SnROWDBnbU15bmkra1BUa2Ftck5TNVpQUU9Kb0pROHhRMUpSaDBtSFlQQ21tTUFEd2g2RUFFQUtsbU1zd2NJQUJRbHltVkF3R1lqSzVuZER6QUNNOEZtS01sTXFVMzRjNkZZbXlYck5Kd1loV0VZRTBsWUFZdWlSVkxFVUpqczRXQ3V4ZUF6R2RoWmo3emUrK0xOakJwU1ZDeTNlbGI2cTdsbU56c29PVEtPeXlpYWljdFFPS0x3OE82UzZVdFVqRHNITWVJRTdLTXJTc3o4NG83N2VkVDdNMjVnUytxcnZRQ2lYd283aThCZlU3cVdwNHpDR3E0UEtkNDdxYzBkVUw5dVh0Vnl5czNJOXFBMWdMeEsxb0ppaEZLTEZLTWlsTFd0UkxIaGlqekZsMlFBYXBjZ0NaVmRhSnlibThxL3dDR1U1clJPUmdUeXF5dFN6OHNWeXUyNDlxckkyYmt1dEhNRHlwS3FXU1NRc1RyQUhaTmxvcW9wOFVkSkIyU1N1a2lFOFRCeTNNNlAxZGx2QWw5bFpoOUgxTE5SOWF4Tk5tckZvZDBFM2RKaEV5Vk1CZ3dwV0pzSERjdlN1ZTd2dDQ5dTMxUE1JTXZ6R04yZ2xtTE1ZQ0NwZThLUFFNcFpiQWpGbU1BQXNUd2QySkJSNlBBQjZFRUVBRUVFRUFFUEFnZ0I2RUVFQVBCNkVFSW9tcEJqZElRUWdVUGFCdENDRHhVM0hOaWVnVjFlK0NDR3JpK3pIdis3eEVkNkU5MElJVGs5VVdQZDFpZ2pBZ2hsU2JOc2g2RUVLMTFTQ0NDREVJSUlJQmlDQ0NBQ0NDQ0FDQ0NDQUgvMlE9PSIvPjwvZz48L2c+Cjwvc3ZnPgo=">
-<!-- PNG fallback for older browsers (optional, delete if not needed): -->
-<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAKsElEQVR4AVSXW4wlR33Gf1XVl3M/Z3ZmdnbX682uwUoixXnIC5GiSEREUaTcRJTYkChxbF6chwQMxihx4igYZCEDQlweDOJiEIibQfBgZAQICWMhQBYCBMLYLLbHux7vnpk5tz59+lZ81Ws/0JpW9+mq+l++//f/qsby0uV11XXtm6bRm2+f4bXUz9JXvihzX+q58N4/vaz9t/cz/+iz3n/92dp/63LlLy4bv9RYU1e+qQrvg61aD9/4pmk08tt/L7mlDSDP8zCKMaa9FQir1QoMyBhZ7fje8znf3Pd88+kNP7kC6zKlLHOq0rNZw4+nhu/sw9eeq3hsf8mhsWzqElN7ZJxwBbvhWRQFevfh3WrQR1FE+GiMaSev1ms6aUKNl9EVjz65YslIi6zumsTUVLZBiVE1BcYZIl+xXueKOGblJzz+dMk3nrxKpTFrPEWleeaaffls/ejpQwBYa0nTFCHBbDZj1LXs5zGPPJWRmQGjXofVfEa2WpIkMbWHIt8Qdzq4JCHb5Gw2hcYibGRY5kuixNEMd/jyT2dcPIbE2dbpcrlsfTnn2mSsMSYg0Q6GABIZfOyZgh9d3jBIOghHVcJgjCEsCmhVZdUaKcuyXWeMofFNO2eVrej3+sq4pKMK94XkY5dmfP/5uRBa0+v1CFfTXJvfckBQcHh0rExjfnCQc2lZk0YJGxm2nYj5ekVvPJThHsujGf20g7OuvcPaEPQg7bKazel1um0g1lrFXmM1d2c44ZfThp9MK6FNm7kx15JqSxDqPx4NeHIeMzcT+nJWNjXOWbIso9vtimwVubixtTVhsVgQMijKgjiO2/eA3ng0ZiGIw1hZlAS0vJCZq3y7uzs8N4NnM9sGGOZ477FGVEs7CU0U86u5h3gjhCw2gvl0wSDt09QiXVViXEQpAnT7fVYKoiPn6k18qSVaX1vLeDhkdnREV/yQfYp11sJe1w39UZcfPD0F2wgJh/V69SYSkxu+e3EFSUqnSNqOCPUdbPdYVzUvHBwqs5zD+Zz9gwOevfwCi7zgmUsH7L94wMHxlKsq4eWDFzU+1RrPxecuM1tlOPHIKDCruy4beltjvvGzKaG9vb5Zr/bJFMRhYfF1RSUWVyKZcuKWW99AqWh3t4ec3Bmzd6LPyXGP39k7xd7uFrvbYybDHmf2djl18gTbWyPOntrh9O4Jdk+MMRKIW/75dvBKsoRIBDc4VvGEY5PouzhRi40/unhIT3UOdVmrzv1Bn1C//7r7HiYqz73veA93/fd9vPWed3HvO99NGTfixop+v0d/MGCpckhY2jU0CPYNA7F9a2uLt77tbtVcUFv5k64Egeuo5X9+aa6EG5XBWHLbxzpaHQiMNsaE2Zza3ZWSNdz39v/lHff9H/9/713c//b/oc5KBdyhytcyblS5lLKoCYvuuOtOfviLn7EWt2gM5y+ca0saxgJRewqsUVmnTYpxEbaykeZFLGYLXnYeJiapILJoklMHyLinzXYtwYmFys3/dgdLSfRiviB0Sap2Oz5Sd1QRn/vMw0SNwzdenQSdTsp0elVBd0Mc1EE9VYIscOBg6WlUl35PGan2gXwdGVur/YyAWIlIffEilfyu5CwRfEEtv/T5T/C2t9zJUKwvNhuhl/Gxj36KB951Hx98//1YNnLu9L1iucwYjcfaXzJQGWwquCvDlQLsr2c5Rp8rNWQsmdW4/jzBkVqZjjrDCqVNVVGKL7fe9gZGJ7ZZLzd86EMf5O9uvoXX33ob9z/wAP959xsZpAnH0zmf/ewXRWAl5wMCHSKX0JOtcr1R3R0uqvj11QqbCbKyrFXroo04jiMJTs46WxPHhlKOM7/hzffcw7+/8S185MMP0mQLggaUyvyhj36chz7+SX78y+dwm5VUDgb9EZ//wsMEQne7MUli9b0WzyxhzwlEVJbktdU359oJ1iVYY8N3ReekbhCDNMLSlyy/6T/uZDIc0FUJTJwSVCwEN9CmE0cND3/6QWLJ8T+87nVgKt0dIWvw4oFAIJGfUqrYOEN7vfSwUezlNEwxOGfluCGQMbRYUTSKOKHyhnN7J/nAe9+DrGqeU3Y5o9EIq7LZquG2f71d5bU4KeLR4SGV1DOQU1XTfA15cDasW7fKiK6Oa7A39GCjtnDiQK4tVt9xzlJK541KUJUrIeNBghQgd3rNlysF1mOdFfzL7bep4Qy5iOwtNJo3Hm/jYwUjLQ5CN50eK7GCUueFgVBqyghMw+mRxe4NnXY+y1xMjeO4zX6l9yRNePzx79GRQM0kwQGVVN9mxzPCdusir/aLGXYGdOOUzfyQXIJUih9d1dyG05L488QTTzCehA5YtZkbY4itUHcJ1w8stqddzzcFg05fbbKSwmUy3CXUeH50hfmmFKnGlIVhKbL2d7bIhWuOslU9P/Dg+yQ6ax769GeIe0O+9IWvom2CRx75CgudF148uMThdMpQQRwvhIScG1PihE4iGwIexnYjiBpl22mfoc6RSPNPN/8jzjhqA1mRY7RoI1585WuP0pRGSigLdUKeRbzwwiGhBDaylFKWSqUaStJf+7d/Q9AKYwydXpelTlW1iek3C9AxTRhYbjo3QSnjlVlPUrnUnn7tfFcjGjDP5gwmPSlZqq32mJ8/9RSpyGvkaqkj3KDnpAkPSnRKKglW1HUsJdNrlWRnMhGiKYXQCPtLr9uTvTU3XTciEl/0Z0g12FNESeSUsRXBUsqqJNHkotwwljJG2s/3L11mUxa8/u9fy6X9K1x85hJHkvDnLx/w5jfdwfTwKlc1x2wqjGy62KKTOdlqrSASQldp++VkvGbYKFjbwVogiSL+9MYJtd4bHZkjF7WEuXLlihZ2cRrP85xTJ3e5/vQerzx/jsko5ZU3XMeF68+we2LCK86c5sKpU5y/7iwbkTiwPRA3rIviWM5roihhk8149Y3bshljVargn1psdRKJG8cWF/Zsg+DM2VPvBwNeYpJKgCIF6PS+WSzp9QdkaitvPGlH2elcUSqFK0eH9Ccj1sUGK/L04i6V7IetvioF/dltaqFTCWH5VxAyGmqzXKy4MCjZtsestBEFLtSCvSfiZDpWGaOoNHehlgznBSvswqa1kRwbY+joCBbOj5OJkJQIhexDJwXHAdEgv3tJzg2jBuecoLfXbtlsmT8YDpnPVpzvNJwfRhid/bwCKPKs7fuwA67lbKAjVa7oJWJoFsFRQGkeAuv3Caep4BS1kpEjNY3Q3HCuV/GHOyml/pMKwYc7BChO+DYSdIWPevBHZ2J+f9eS2AITdZAtYkmsdZaXTz6BpHHiMMa035x1SNP1GzkpCbwJ8+M656Zdxx9f2GrJHRALjtEVArXGGMKHAN9Ax6vt7W0W8xVnhcRrzvXYoiDs591un5G6opYwFTr9OKniXOwOLdtX5qnaN9TYKdA4Tql0vqyzF/mz3x1y44mUQp1hrSX4CL6Cc+ccIQCji2AkPEMwYVKYYBTlq05b/uL3Bgz8jHX4Z1N7usW1WcdxRF+ONQ0vDbGdgQSqYsdmvPpczF++Ype0qdq5qUgcyBjsB36FYOTP2LBYP0x4vnxrQC0TIWtEcjgSw//kTJe/Omd4zXnLTWcs/ZiWTIHAqbbfP9hz/PlZ+OsbDK+6LmEohdGJDVHumi0gVju2iRnDyz5/AwAA//8CsWs9AAAABklEQVQDAELky859RmKWAAAAAElFTkSuQmCC">    
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -1248,9 +1243,78 @@
             text-transform: uppercase;
             letter-spacing: 0.1em;
         }
+    
+        /* ============ Accessibility (a11y pass) ============ */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+        :focus-visible {
+            outline: 2px solid #a55eea;
+            outline-offset: 2px;
+        }
+        [role="button"] { cursor: pointer; }
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            top: 0;
+            z-index: 10000;
+            background: #0f1320;
+            color: #ffffff;
+            padding: 10px 18px;
+            border-radius: 0 0 8px 0;
+            font-size: 0.95rem;
+            text-decoration: none;
+        }
+        .skip-link:focus {
+            left: 0;
+        }
+    
+        .completion-code {
+            margin-top: 16px;
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+        .completion-code strong {
+            color: #2ed573;
+            font-size: 1.2rem;
+            letter-spacing: 1.5px;
+        }
+        .completion-code .code-note {
+            display: block;
+            font-size: 0.8rem;
+            opacity: 0.75;
+            margin-top: 5px;
+        }
+    
+        @media print {
+            *, *::before, *::after {
+                background: #ffffff !important;
+                color: #000000 !important;
+                box-shadow: none !important;
+                text-shadow: none !important;
+                animation: none !important;
+            }
+            .skip-link, .lesson-nav, button, .sim-btn, .quiz-option-controls,
+            iframe, .video-card iframe, .hero-start-btn { display: none !important; }
+            #hero { display: none !important; }
+            .lesson-body { display: block !important; }
+            .section { display: block !important; page-break-before: always; }
+            .section:first-of-type { page-break-before: avoid; }
+            .quiz-option { display: block !important; border: 1px solid #999 !important; margin: 4px 0; padding: 6px 10px; }
+            .quiz-question, .expand-panel, .glossary-item, .tactic-cell { page-break-inside: avoid; }
+            .expand-panel > * { display: block !important; }
+            .video-card::after { content: "(Video available in the online version)"; font-style: italic; }
+            a { color: #000000 !important; text-decoration: underline; }
+        }
     </style>
 </head>
 <body>
+    <a href="#lessonBody" class="skip-link">Skip to main content</a>
 
 <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; HERO &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
 <section class="hero" id="hero">
@@ -1260,11 +1324,11 @@
     <p class="hero-subtitle">
         An interactive lesson covering everything you need to know before stepping into the SOC simulation. Learn the tools, the terminology, and the analyst mindset.
     </p>
-    <button class="hero-start-btn" onclick="startLesson()">Begin Lesson &#8595;</button>
+    <button class="hero-start-btn" data-action="startLesson()">Begin Lesson &#8595;</button>
     <div class="hero-stats">
-        <div class="hero-stat"><div class="num">9</div><div class="label">Modules</div></div>
+        <div class="hero-stat"><div class="num">10</div><div class="label">Modules</div></div>
         <div class="hero-stat"><div class="num">20</div><div class="label">Quiz Questions</div></div>
-        <div class="hero-stat"><div class="num">~35</div><div class="label">Minutes</div></div>
+        <div class="hero-stat"><div class="num">~45</div><div class="label">Minutes</div></div>
     </div>
 </section>
 
@@ -1279,7 +1343,8 @@
         <button class="nav-btn" data-section="5">Alert Triage</button>
         <button class="nav-btn" data-section="6">Your 4 Screens</button>
         <button class="nav-btn" data-section="7">Video Resources</button>
-        <button class="nav-btn" data-section="8">Knowledge Check</button>
+        <button class="nav-btn" data-section="8">Multidisciplinary</button>
+        <button class="nav-btn" data-section="9">Knowledge Check</button>
         <div class="nav-progress">
             <div class="progress-bar-mini"><div class="fill" id="progressFill" style="width:12.5%"></div></div>
             <span id="progressText">1/9</span>
@@ -1288,7 +1353,7 @@
 </nav>
 
 <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; LESSON BODY &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
-<div class="lesson-body" id="lessonBody">
+<div class="lesson-body" id="lessonBody" role="main">
 
 <!-- &#9472;&#9472; SECTION 0: WHAT IS A SOC &#9472;&#9472; -->
 <div class="section active" data-idx="0">
@@ -1336,7 +1401,7 @@
 
     <div class="section-nav-bottom">
         <button class="nav-prev" disabled>&#8592; Previous</button>
-        <button class="nav-next" onclick="goToSection(1)">SOC Team Structure &#8594;</button>
+        <button class="nav-next" data-action="goToSection(1)">SOC Team Structure &#8594;</button>
     </div>
 </div>
 
@@ -1399,8 +1464,8 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(0)">&#8592; What is a SOC?</button>
-        <button class="nav-next" onclick="goToSection(2)">Core Tools &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(0)">&#8592; What is a SOC?</button>
+        <button class="nav-next" data-action="goToSection(2)">Core Tools &#8594;</button>
     </div>
 </div>
 
@@ -1410,7 +1475,7 @@
     <h2 class="section-title">Core SOC Tools & Technologies</h2>
     <p class="section-intro">SOC analysts rely on a suite of specialized tools to monitor, detect, and respond to threats. Here are the essential technologies you'll encounter in the simulation.</p>
 
-    <div class="expand-panel" onclick="toggleExpand(this)">
+    <div class="expand-panel" role="button" tabindex="0" aria-expanded="false" data-action="toggleExpand(this)">
         <div class="expand-header">
             <h4>&#128269; SIEM &#8212; Security Information & Event Management</h4>
             <div class="expand-arrow">&#9660;</div>
@@ -1425,7 +1490,7 @@
         </div>
     </div>
 
-    <div class="expand-panel" onclick="toggleExpand(this)">
+    <div class="expand-panel" role="button" tabindex="0" aria-expanded="false" data-action="toggleExpand(this)">
         <div class="expand-header">
             <h4>&#127760; Network Monitoring & IDS/IPS</h4>
             <div class="expand-arrow">&#9660;</div>
@@ -1441,7 +1506,7 @@
         </div>
     </div>
 
-    <div class="expand-panel" onclick="toggleExpand(this)">
+    <div class="expand-panel" role="button" tabindex="0" aria-expanded="false" data-action="toggleExpand(this)">
         <div class="expand-header">
             <h4>&#128680; Incident Response Platform</h4>
             <div class="expand-arrow">&#9660;</div>
@@ -1456,7 +1521,7 @@
         </div>
     </div>
 
-    <div class="expand-panel" onclick="toggleExpand(this)">
+    <div class="expand-panel" role="button" tabindex="0" aria-expanded="false" data-action="toggleExpand(this)">
         <div class="expand-header">
             <h4>&#129504; Threat Intelligence Platform</h4>
             <div class="expand-arrow">&#9660;</div>
@@ -1471,7 +1536,7 @@
         </div>
     </div>
 
-    <div class="expand-panel" onclick="toggleExpand(this)">
+    <div class="expand-panel" role="button" tabindex="0" aria-expanded="false" data-action="toggleExpand(this)">
         <div class="expand-header">
             <h4>&#128187; EDR &#8212; Endpoint Detection & Response</h4>
             <div class="expand-arrow">&#9660;</div>
@@ -1487,8 +1552,8 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(1)">&#8592; SOC Team</button>
-        <button class="nav-next" onclick="goToSection(3)">MITRE ATT&CK &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(1)">&#8592; SOC Team</button>
+        <button class="nav-next" data-action="goToSection(3)">MITRE ATT&CK &#8594;</button>
     </div>
 </div>
 
@@ -1542,8 +1607,8 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(2)">&#8592; Core Tools</button>
-        <button class="nav-next" onclick="goToSection(4)">Indicators of Compromise &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(2)">&#8592; Core Tools</button>
+        <button class="nav-next" data-action="goToSection(4)">Indicators of Compromise &#8594;</button>
     </div>
 </div>
 
@@ -1632,8 +1697,8 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(3)">&#8592; MITRE ATT&CK</button>
-        <button class="nav-next" onclick="goToSection(5)">Alert Triage &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(3)">&#8592; MITRE ATT&CK</button>
+        <button class="nav-next" data-action="goToSection(5)">Alert Triage &#8594;</button>
     </div>
 </div>
 
@@ -1691,12 +1756,12 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the correct first action?</p>
         <div class="sim-actions" id="triageSim1">
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim1')">Immediately isolate the machine</button>
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim1')">Investigate context &#8212; check if jsmith runs authorized scripts</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim1')">Mark as false positive &#8212; PowerShell is normal</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim1')">Ignore &#8212; marketing doesn't have sensitive data</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim1')">Immediately isolate the machine</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim1')">Investigate context &#8212; check if jsmith runs authorized scripts</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim1')">Mark as false positive &#8212; PowerShell is normal</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim1')">Ignore &#8212; marketing doesn't have sensitive data</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback1"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback1"></div>
     </div>
 
     <div class="alert-sim">
@@ -1713,11 +1778,11 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Which alert should be investigated first?</p>
         <div class="sim-actions" id="triageSim2">
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim2')">Alert A &#8212; port scans are always dangerous</button>
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim2')">Alert B &#8212; large off-hours transfer from finance server is highly suspicious</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim2')">Both equally &#8212; investigate in order received</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim2')">Alert A &#8212; port scans are always dangerous</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim2')">Alert B &#8212; large off-hours transfer from finance server is highly suspicious</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim2')">Both equally &#8212; investigate in order received</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback2"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback2"></div>
     </div>
 
     <!-- TRIAGE EXERCISE 3: Brute Force -->
@@ -1731,12 +1796,12 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the correct first action?</p>
         <div class="sim-actions" id="triageSim3">
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim3')">Block the IP immediately at the firewall</button>
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim3')">Check the pen test schedule, then verify if any login succeeded</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim3')">Ignore &#8212; DMZ servers always get scanned</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim3')">Shut down the SSH service on the server</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim3')">Block the IP immediately at the firewall</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim3')">Check the pen test schedule, then verify if any login succeeded</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim3')">Ignore &#8212; DMZ servers always get scanned</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim3')">Shut down the SSH service on the server</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback3"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback3"></div>
     </div>
 
     <!-- TRIAGE EXERCISE 4: Phishing Click -->
@@ -1750,12 +1815,12 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the most important immediate action?</p>
         <div class="sim-actions" id="triageSim4">
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim4')">Tell the user to run a virus scan and monitor for a week</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim4')">Block the domain and close the ticket &#8212; the user didn't enter credentials</button>
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim4')">Ask if credentials were entered, then reset the password and check for suspicious logins</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim4')">Escalate directly to Tier 3 &#8212; this requires threat hunting</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim4')">Tell the user to run a virus scan and monitor for a week</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim4')">Block the domain and close the ticket &#8212; the user didn't enter credentials</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim4')">Ask if credentials were entered, then reset the password and check for suspicious logins</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim4')">Escalate directly to Tier 3 &#8212; this requires threat hunting</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback4"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback4"></div>
     </div>
 
     <!-- TRIAGE EXERCISE 5: Ransomware Indicator -->
@@ -1769,12 +1834,12 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the correct response?</p>
         <div class="sim-actions" id="triageSim5">
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim5')">Immediately isolate FS-HR-03 from the network and escalate as a critical incident</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim5')">Investigate what application is renaming the files before acting</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim5')">Check if this is a scheduled backup encryption job</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim5')">Submit a ticket to the sysadmin team for review in the morning</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim5')">Immediately isolate FS-HR-03 from the network and escalate as a critical incident</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim5')">Investigate what application is renaming the files before acting</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim5')">Check if this is a scheduled backup encryption job</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim5')">Submit a ticket to the sysadmin team for review in the morning</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback5"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback5"></div>
     </div>
 
     <!-- TRIAGE EXERCISE 6: Insider Threat Indicators -->
@@ -1788,12 +1853,12 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What should you do first?</p>
         <div class="sim-actions" id="triageSim6">
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim6')">Immediately disable kwilson's account</button>
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim6')">Verify kwilson's role and check HR for any upcoming status changes (resignation, termination)</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim6')">Mark as false positive &#8212; Corporate Development works with M&A files</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim6')">Ignore until the download exceeds 1,000 files</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim6')">Immediately disable kwilson's account</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim6')">Verify kwilson's role and check HR for any upcoming status changes (resignation, termination)</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim6')">Mark as false positive &#8212; Corporate Development works with M&A files</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim6')">Ignore until the download exceeds 1,000 files</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback6"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback6"></div>
     </div>
 
     <!-- TRIAGE EXERCISE 7: Multi-Alert Correlation -->
@@ -1815,17 +1880,17 @@
         </div>
         <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">How should these alerts be handled?</p>
         <div class="sim-actions" id="triageSim7">
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim7')">Investigate each alert independently &#8212; they triggered different rules</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim7')">Contact dchung to verify the VPN login &#8212; handle the others later</button>
-            <button class="sim-btn" onclick="checkTriage(this, true, 'triageSim7')">Correlate as one incident &#8212; likely compromised credentials. Disable VPN session, lock the account, and escalate immediately</button>
-            <button class="sim-btn" onclick="checkTriage(this, false, 'triageSim7')">Flag for review in the morning &#8212; engineers sometimes work late</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim7')">Investigate each alert independently &#8212; they triggered different rules</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim7')">Contact dchung to verify the VPN login &#8212; handle the others later</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim7')">Correlate as one incident &#8212; likely compromised credentials. Disable VPN session, lock the account, and escalate immediately</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim7')">Flag for review in the morning &#8212; engineers sometimes work late</button>
         </div>
-        <div class="sim-feedback" id="triageFeedback7"></div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback7"></div>
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(4)">&#8592; IOCs</button>
-        <button class="nav-next" onclick="goToSection(6)">Your 4 Screens &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(4)">&#8592; IOCs</button>
+        <button class="nav-next" data-action="goToSection(6)">Your 4 Screens &#8594;</button>
     </div>
 </div>
 
@@ -1836,7 +1901,7 @@
     <p class="section-intro">Now let's walk through each of the four screens you'll use in the simulation. Each represents a critical operational area of a real SOC.</p>
 
     <div class="screen-grid">
-        <div class="screen-preview" onclick="toggleExpand(this.querySelector('.expand-panel-inline'))">
+        <div class="screen-preview" role="button" tabindex="0" aria-expanded="false" data-action="toggleExpand(this.querySelector('.expand-panel-inline'))">
             <div class="preview-header">
                 <div class="screen-num">1</div>
                 <h4>SIEM Dashboard</h4>
@@ -1919,8 +1984,8 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(5)">&#8592; Alert Triage</button>
-        <button class="nav-next" onclick="goToSection(7)">Video Resources &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(5)">&#8592; Alert Triage</button>
+        <button class="nav-next" data-action="goToSection(7)">Video Resources &#8594;</button>
     </div>
 </div>
 
@@ -2044,30 +2109,305 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(6)">&#8592; Your 4 Screens</button>
-        <button class="nav-next" onclick="goToSection(8)">Knowledge Check &#8594;</button>
+        <button class="nav-prev" data-action="goToSection(6)">&#8592; Your 4 Screens</button>
+        <button class="nav-next" data-action="goToSection(8)">Multidisciplinary &#8594;</button>
     </div>
 </div>
 
-<!-- &#9472;&#9472; SECTION 8: KNOWLEDGE CHECK &#9472;&#9472; -->
+<!-- &#9472;&#9472; SECTION 8: MULTIDISCIPLINARY SCENARIOS &#9472;&#9472; -->
 <div class="section" data-idx="8">
     <div class="section-eyebrow">Module 09</div>
+    <h2 class="section-title">Multidisciplinary Scenarios</h2>
+    <p class="section-intro">A security incident is rarely just a security problem. The same SOC data gets read through very different professional lenses &#8212; a compliance officer, a nurse, an engineer, and a psychologist will all see different things in the same alert. These scenarios practice applying each lens to the SOC dashboards.</p>
+
+    <div class="content-card">
+        <h3><span class="icon">&#128302;</span> Why Multidisciplinary?</h3>
+        <p>Cybersecurity sits at the intersection of many fields. A ransomware incident at a hospital isn't resolved by the security team alone &#8212; it involves clinicians deciding patient safety protocols, legal counsel assessing HIPAA obligations, communications drafting disclosures, and leadership making business continuity decisions. The best analysts understand how their work connects to the rest of the organization.</p>
+        <p>Each scenario below frames a real SOC data point through a different discipline's viewpoint. Try to answer from that discipline's perspective &#8212; not just the security-analyst perspective.</p>
+    </div>
+
+    <!-- COMPUTER SCIENCE -->
+    <h3 style="color:#3b9eff; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#128187; Computer Science Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Read the SOC as a systems and software problem. Focus on detection logic, data pipelines, rule design, and algorithmic behavior &#8212; not the threat itself.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Broken Detection Rule</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">New detection rule "Suspicious PowerShell v2" is generating ~10,400 alerts/day (previous rule generated ~140/day)</div>
+            <div class="alert-meta">Rule logic: <code>EventID=4104 AND ScriptBlockText CONTAINS "Invoke"</code> &#183; Deployed 18 hours ago &#183; 97%+ flagged as false positives by analysts</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is most likely wrong with the rule?</p>
+        <div class="sim-actions" id="triageSim8">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim8')">The SIEM is broken &#8212; roll back to a previous version</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim8')">The match string is too broad &#8212; "Invoke" appears in benign cmdlets like Invoke-WebRequest, Invoke-Command, Invoke-Expression used by admin scripts</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim8')">Attackers have scaled up PowerShell usage overnight</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim8')">This is expected &#8212; new rules always produce high alert volume initially</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback8"></div>
+    </div>
+
+    <!-- DATA SCIENCE -->
+    <h3 style="color:#22d3ee; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#128202; Data Science Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Read the SOC as a dataset. Focus on distributions, baselines, anomalies, and the statistical story the numbers are telling.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Volume Anomaly Analysis</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">Tuesday 02:00&#8211;06:00 UTC: Alert volume was 3.2&times; baseline (304% of normal). Confirmed incidents for the same window: 2 (baseline: 2).</div>
+            <div class="alert-meta">Screen 1 Metrics: MTTD unchanged &#183; MTTR unchanged &#183; False Positive Rate jumped from 31% to 74% &#183; Analyst fatigue score: elevated</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the most supported conclusion from the data?</p>
+        <div class="sim-actions" id="triageSim9">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim9')">There was a sophisticated attack that analysts missed</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim9')">The SOC handled a surge efficiently &#8212; MTTR held steady</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim9')">Something generated noise, not threats &#8212; true positives held flat while false positive rate more than doubled. Investigate for a noisy data source, failed scheduled job, or misconfigured rule.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim9')">Insufficient data &#8212; one night isn't enough signal</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback9"></div>
+    </div>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Detection Model Drift</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">The ML-based lateral movement detector's alert count dropped 60% overnight; no model changes, no infrastructure changes logged.</div>
+            <div class="alert-meta">Precision last week: 0.78 &#183; Recall last week: 0.81 &#183; Current week precision: 0.94 &#183; Current week recall: &#8212; cannot compute (too few positives to measure)</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Which hypothesis should you investigate first?</p>
+        <div class="sim-actions" id="triageSim10">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim10')">Celebrate &#8212; higher precision means the model improved</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim10')">A data-pipeline issue is starving the model of inputs &#8212; check log ingestion, feature freshness, and whether upstream sensors are reporting</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim10')">Attackers learned to evade the model</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim10')">Retrain the model immediately with recent data</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback10"></div>
+    </div>
+
+    <!-- BUSINESS & RISK MANAGEMENT -->
+    <h3 style="color:#fbbf24; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#128188; Business &amp; Risk Management Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Translate technical indicators into business language: risk, dollars, obligations, reputational exposure, and decisions an executive can act on.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: 2-Minute Executive Briefing</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">Active Incident INC-2024118: Ransomware on FIN-ERP-02 (finance ERP). 340 files encrypted so far; spread contained to one host. Sector tag: Finance/PCI. Last confirmed backup: 4 hours ago.</div>
+            <div class="alert-meta">CISO needs a 2-minute briefing for the CEO in 5 minutes. You have the Screen 3 incident view open.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Which briefing leads best?</p>
+        <div class="sim-actions" id="triageSim11">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim11')">"We detected a T1486 data-encryption event via the EDR; the IR playbook is executing."</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim11')">"We have an isolated ransomware incident on one finance server; no data loss expected because backups are 4 hours old; no customer-facing systems affected; estimated restoration window: 6&#8211;8 hours; PCI notification obligations being evaluated."</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim11')">"Everything is under control &#8212; I'll update you when we know more."</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim11')">"Critical ransomware incident in progress &#8212; we're considering paying the ransom to minimize downtime."</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback11"></div>
+    </div>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Breach Notification Trigger</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">Confirmed data exfiltration from a SharePoint site containing 12,400 patient records (names, diagnoses, insurance IDs). Sector tag: Healthcare/PHI. Exfiltration window: 23 hours before detection.</div>
+            <div class="alert-meta">Data was transferred to an external IP now associated with a known data-broker marketplace. Regulatory footprint: US (HIPAA), California (CMIA + CCPA), EU patients included (GDPR).</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Which is the correct first business/legal obligation?</p>
+        <div class="sim-actions" id="triageSim12">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim12')">Notify affected patients within 24 hours</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim12')">Wait for forensics to confirm full scope before any notification</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim12')">Activate the incident response legal track immediately &#8212; engage counsel, preserve evidence, start the clock on HIPAA (60 days), GDPR (72 hours to DPA), and state-level notification deadlines in parallel</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim12')">Issue a press release before the data broker does</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback12"></div>
+    </div>
+
+    <!-- CRIMINAL JUSTICE -->
+    <h3 style="color:#a78bfa; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#9878;&#65039; Criminal Justice Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Treat the incident as an investigation. Focus on evidence, chain of custody, jurisdictional authority, and what a prosecutor would need.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Cross-Border Jurisdiction</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">Confirmed unauthorized access. Attacker source IP geolocates to Russia. Victim asset is a cloud VM hosted in Frankfurt, Germany. The company's legal entity and data owners are in New York, USA. Records accessed include EU-resident PII.</div>
+            <div class="alert-meta">Loss estimate: $4.2M. The FBI field office, the BKA (German federal police), and the company's EU DPO all have a stake.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Which authority has primary jurisdiction?</p>
+        <div class="sim-actions" id="triageSim13">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim13')">Russia &#8212; the attacker originated there</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim13')">Germany only &#8212; the server is located there</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim13')">No single authority has exclusive jurisdiction &#8212; the case has concurrent US, German, and EU footprints. Coordinate via MLAT channels and expect FBI, BKA, and the relevant DPA to each assert a role.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim13')">The US company's state of incorporation has sole authority</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback13"></div>
+    </div>
+
+    <!-- PSYCHOLOGY -->
+    <h3 style="color:#ec4899; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#129504; Psychology Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Read behavior, not bytes. Focus on what the pattern of activity reveals about intent, pressure, deception, or analyst cognition.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Behavioral Escalation</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">Employee jwhitfield (Sales) &#8212; 3-week DLP log review. Week 1: printed 12 pages of customer lists (normal). Week 2: emailed 3 client contact lists to personal Gmail (flagged, not blocked). Week 3: downloaded the entire CRM export (8,200 records) at 17:50 Friday (flagged).</div>
+            <div class="alert-meta">HR context: jwhitfield gave 2-week notice on Monday of Week 3. Going to a direct competitor per LinkedIn update.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Which behavioral pattern best describes this?</p>
+        <div class="sim-actions" id="triageSim14">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim14')">Random, opportunistic theft triggered by the resignation</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim14')">Classic pre-departure data exfiltration with escalating boldness &#8212; each week tests the system's response, and silence is interpreted as permission. The Friday-evening timing is a deliberate low-supervision window.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim14')">Legitimate end-of-employment wrap-up</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim14')">Insufficient signal to conclude intent</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback14"></div>
+    </div>
+
+    <!-- HEALTHCARE -->
+    <h3 style="color:#34d399; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#129302; Healthcare Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Patient safety comes before everything. Read the alert asking: "What happens to care if I act &#8212; and what happens to care if I don't?"</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Infected Medical Device</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">EDR Alert: MRI-RAD-03 (MRI Imaging System, Radiology dept) shows malware signature match. Device is currently in the middle of a patient scan. Clinical workflow: 6 scans scheduled today, next in 40 minutes.</div>
+            <div class="alert-meta">Device is a 12-year-old Windows-embedded system. Vendor confirms no patch available. Connected to PACS-01 for image routing.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the correct response sequence?</p>
+        <div class="sim-actions" id="triageSim15">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim15')">Immediately power down the MRI to contain the threat</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim15')">Do nothing until the scan finishes, then reimage the device</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim15')">Let the current scan complete safely, immediately notify the radiology charge nurse and clinical engineering, network-isolate the device (not power-cycle) once the patient is off the table, reroute scheduled scans, and engage the vendor &#8212; all in parallel</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim15')">Block all network traffic to PACS-01 to prevent spread</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback15"></div>
+    </div>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: EHR Access Pattern</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">EHR audit log: user rthompson (Nurse, ICU) accessed the record of patient "M. Thompson" (same last name) 14 times over 3 days. Patient is not assigned to ICU.</div>
+            <div class="alert-meta">No other unusual activity. No data exported or printed. The user has legitimate EHR access for their unit.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the likely HIPAA implication?</p>
+        <div class="sim-actions" id="triageSim16">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim16')">No issue &#8212; the user has valid EHR access</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim16')">Automatic HIPAA breach &#8212; notify patients within 24 hours</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim16')">Potential HIPAA violation (&#8220;snooping&#8221;) &#8212; access without a treatment, payment, or operations purpose. Refer to the Privacy Officer for investigation; outcome determines whether it rises to a reportable breach.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim16')">Terminate the employee immediately</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback16"></div>
+    </div>
+
+    <!-- ENGINEERING -->
+    <h3 style="color:#f97316; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#9881;&#65039; Engineering Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">OT and safety-critical systems have different rules. Availability often outranks confidentiality; a "clean" response can cause physical harm.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: SCADA Anomalous Traffic</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">SCADA-PLANT-07 (SCADA Controller, production line) showing unusual outbound HTTPS connections to a legitimate-looking but previously unseen vendor domain.</div>
+            <div class="alert-meta">Plant floor: currently running a batch process that has 14 hours remaining. Abruptly stopping the batch would cause a $180K material loss plus 36-hour safety-cooldown requirement on the line.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Should you block the traffic at the firewall?</p>
+        <div class="sim-actions" id="triageSim17">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim17')">Yes &#8212; block immediately, any unknown destination from SCADA is unacceptable</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim17')">Not yet &#8212; investigate first with plant operators and OT engineers. SCADA blocks can cause safety-critical failures; the correct path is to verify whether the domain is a legitimate vendor telemetry endpoint, then stage containment around the batch cycle.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim17')">No &#8212; never touch OT traffic, it's not SOC's responsibility</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim17')">Block but alert the plant manager afterward</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback17"></div>
+    </div>
+
+    <!-- SOCIAL SCIENCE -->
+    <h3 style="color:#60a5fa; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#128101; Social Science Lens</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">Security policies operate inside a social and ethical fabric. Consider power dynamics, employee rights, legitimate dissent, and the consequences of surveillance.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Whistleblower or Insider Threat?</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">DLP flagged user kharris (Compliance dept) sending encrypted files to an external law firm domain. Files relate to internal audit findings about a suspected financial reporting irregularity.</div>
+            <div class="alert-meta">Context from HR: kharris recently filed a concern through the internal ethics hotline; was told it had been "handled." Files sent appear to be copies of the same audit documents.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">What is the correct handling?</p>
+        <div class="sim-actions" id="triageSim18">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim18')">Treat as insider threat &#8212; disable account, preserve evidence for termination</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim18')">Ignore &#8212; compliance staff can send to law firms</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim18')">Escalate to Legal and the Ethics/Compliance Officer, not through normal insider-threat channels. Many jurisdictions legally protect whistleblower communications; treating this as a security incident could expose the company to retaliation claims.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim18')">Alert kharris's manager so they can address it</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback18"></div>
+    </div>
+
+    <!-- CROSS-DISCIPLINARY CAPSTONE -->
+    <h3 style="color:#fb7185; margin:2rem 0 0.5rem 0; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase;">&#127919; Cross-Disciplinary Capstone</h3>
+    <p style="color:var(--text-secondary); margin-bottom:1rem; font-size:0.95rem;">One incident. Many disciplines. Practice identifying which lens to apply when.</p>
+
+    <div class="alert-sim">
+        <div class="sim-header">
+            <h4>&#129504; Practice: Hospital Ransomware &#8212; Whose Job First?</h4>
+        </div>
+        <div class="sim-alert">
+            <div class="alert-title">03:14 UTC: Ransomware detonated across a 340-bed hospital network. EHR offline, imaging systems unresponsive, two IV infusion pumps stuck at last-known settings. Sector tag: Healthcare/PHI. Estimated 48,000 patient records at risk.</div>
+            <div class="alert-meta">You're the on-call SOC lead. In the first 15 minutes, you need to decide who gets pulled in first. All of the roles below will eventually be involved.</div>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Who must be engaged in the first 15 minutes?</p>
+        <div class="sim-actions" id="triageSim19">
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim19')">Legal counsel &#8212; for the HIPAA notification clock</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim19')">Communications &#8212; to prepare a public statement</button>
+            <button class="sim-btn" data-action="checkTriage(this, true, 'triageSim19')">Clinical leadership and biomedical engineering &#8212; because patients are on active medical devices right now. Legal, comms, forensics, and executives all matter, but patient safety is the only ticking clock measured in minutes.</button>
+            <button class="sim-btn" data-action="checkTriage(this, false, 'triageSim19')">Law enforcement &#8212; to start the criminal investigation</button>
+        </div>
+        <div class="sim-feedback" role="status" aria-live="polite" id="triageFeedback19"></div>
+    </div>
+
+    <div class="callout info">
+        <span class="callout-label">Takeaway</span>
+        None of these lenses make anyone a "better analyst" on their own &#8212; but an analyst who knows these lenses exist can raise the right flag to the right colleague at the right moment. In the hands-on exercises, practice narrating what you see out loud: "From a <em>business</em> perspective, this means... From a <em>legal</em> perspective... From a <em>patient safety</em> perspective..."
+    </div>
+
+    <div class="section-nav-bottom">
+        <button class="nav-prev" data-action="goToSection(7)">&#8592; Video Resources</button>
+        <button class="nav-next" data-action="goToSection(9)">Knowledge Check &#8594;</button>
+    </div>
+</div>
+
+<!-- &#9472;&#9472; SECTION 9: KNOWLEDGE CHECK &#9472;&#9472; -->
+<div class="section" data-idx="9">
+    <div class="section-eyebrow">Module 10</div>
     <h2 class="section-title">Knowledge Check</h2>
     <p class="section-intro">Test your understanding before heading into the simulation. Answer these questions to verify you're ready.</p>
 
     <div class="quiz-container" id="quizContainer">
         <div class="quiz-header">
             <h3>&#128221; Final Assessment</h3>
-            <div class="quiz-score" id="quizScoreDisplay">Score: 0 / 10</div>
+            <div class="quiz-score" role="status" aria-live="polite" id="quizScoreDisplay">Score: 0 / 10</div>
         </div>
 
         <div class="quiz-question" id="q1">
             <p><span class="q-num">Q1.</span> What does SIEM stand for?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q1',false)">Security Incident and Emergency Management</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q1',true)">Security Information and Event Management</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q1',false)">System Integration and Endpoint Monitoring</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q1',false)">Secure Infrastructure and Event Mitigation</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q1',false)">Security Incident and Emergency Management</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q1',true)">Security Information and Event Management</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q1',false)">System Integration and Endpoint Monitoring</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q1',false)">Secure Infrastructure and Event Mitigation</button>
             </div>
             <div class="quiz-explanation" id="q1-exp">SIEM stands for <strong>Security Information and Event Management</strong>. It collects and correlates log data from across the network to detect threats and generate alerts for analysts.</div>
         </div>
@@ -2075,10 +2415,10 @@
         <div class="quiz-question" id="q2">
             <p><span class="q-num">Q2.</span> Which SOC tier is responsible for initial alert triage and monitoring?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q2',true)">Tier 1</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q2',false)">Tier 2</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q2',false)">Tier 3</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q2',false)">SOC Manager</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q2',true)">Tier 1</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q2',false)">Tier 2</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q2',false)">Tier 3</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q2',false)">SOC Manager</button>
             </div>
             <div class="quiz-explanation" id="q2-exp">Tier 1 analysts are the front line &#8212; they monitor SIEM dashboards, review incoming alerts, classify them as true or false positives, and escalate confirmed threats to Tier 2.</div>
         </div>
@@ -2086,10 +2426,10 @@
         <div class="quiz-question" id="q3">
             <p><span class="q-num">Q3.</span> In the MITRE ATT&CK framework, what do "Tactics" represent?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q3',false)">Specific malware tools used by attackers</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q3',false)">The exact steps taken during a specific attack</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q3',true)">The attacker's high-level goals (the "why")</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q3',false)">Defensive countermeasures used by SOC teams</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q3',false)">Specific malware tools used by attackers</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q3',false)">The exact steps taken during a specific attack</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q3',true)">The attacker's high-level goals (the "why")</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q3',false)">Defensive countermeasures used by SOC teams</button>
             </div>
             <div class="quiz-explanation" id="q3-exp">Tactics are the "why" &#8212; the attacker's high-level goals at each phase. Techniques are the "how," and Procedures are the specific implementation details.</div>
         </div>
@@ -2097,10 +2437,10 @@
         <div class="quiz-question" id="q4">
             <p><span class="q-num">Q4.</span> A scheduled vulnerability scan from an authorized IT security tool triggers a "port scan detected" alert. This is most likely a:</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q4',false)">True Positive &#8212; investigate immediately</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q4',true)">False Positive &#8212; authorized activity triggering a detection rule</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q4',false)">True Negative &#8212; no alert was needed</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q4',false)">Indicator of Attack &#8212; block the source</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q4',false)">True Positive &#8212; investigate immediately</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q4',true)">False Positive &#8212; authorized activity triggering a detection rule</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q4',false)">True Negative &#8212; no alert was needed</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q4',false)">Indicator of Attack &#8212; block the source</button>
             </div>
             <div class="quiz-explanation" id="q4-exp">This is a <strong>false positive</strong> &#8212; the alert is technically correct (a port scan is happening), but it's from an authorized security tool performing its job. The detection rule should be tuned with an exception for this scanner's IP.</div>
         </div>
@@ -2108,10 +2448,10 @@
         <div class="quiz-question" id="q5">
             <p><span class="q-num">Q5.</span> What is an Indicator of Compromise (IOC)?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q5',false)">A firewall rule that blocks malicious traffic</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q5',false)">A prediction that an attack is about to happen</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q5',true)">Forensic evidence suggesting a system has been breached</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q5',false)">A software patch that fixes a vulnerability</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q5',false)">A firewall rule that blocks malicious traffic</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q5',false)">A prediction that an attack is about to happen</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q5',true)">Forensic evidence suggesting a system has been breached</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q5',false)">A software patch that fixes a vulnerability</button>
             </div>
             <div class="quiz-explanation" id="q5-exp">IOCs are digital breadcrumbs &#8212; forensic evidence like malicious IP addresses, suspicious file hashes, unusual traffic patterns, or anomalous login behavior that indicate a breach may have occurred.</div>
         </div>
@@ -2119,10 +2459,10 @@
         <div class="quiz-question" id="q6">
             <p><span class="q-num">Q6.</span> Which alert should be prioritized FIRST?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q6',false)">Failed login attempt from an internal user account</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q6',false)">Unusual DNS query to a newly registered domain</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q6',true)">Ransomware signature detected on a production server</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q6',false)">Scheduled backup job transferring files to cloud storage</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q6',false)">Failed login attempt from an internal user account</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q6',false)">Unusual DNS query to a newly registered domain</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q6',true)">Ransomware signature detected on a production server</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q6',false)">Scheduled backup job transferring files to cloud storage</button>
             </div>
             <div class="quiz-explanation" id="q6-exp">Ransomware on a production server is a <strong>critical</strong> threat requiring immediate action. Every second of delay allows the ransomware to encrypt more data and potentially spread to other systems.</div>
         </div>
@@ -2130,10 +2470,10 @@
         <div class="quiz-question" id="q7">
             <p><span class="q-num">Q7.</span> In the SOC simulation, which screen shows the global threat map and network traffic?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q7',false)">Screen 1 &#8212; SIEM Dashboard</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q7',true)">Screen 2 &#8212; Network Monitor</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q7',false)">Screen 3 &#8212; Incident Response Console</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q7',false)">Screen 4 &#8212; Threat Intel & Endpoints</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q7',false)">Screen 1 &#8212; SIEM Dashboard</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q7',true)">Screen 2 &#8212; Network Monitor</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q7',false)">Screen 3 &#8212; Incident Response Console</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q7',false)">Screen 4 &#8212; Threat Intel & Endpoints</button>
             </div>
             <div class="quiz-explanation" id="q7-exp">Screen 2 is the Network Monitor &#8212; it displays the global threat map, live traffic graphs, firewall logs, top talkers, and port activity, giving you visibility into network-level threats.</div>
         </div>
@@ -2141,10 +2481,10 @@
         <div class="quiz-question" id="q8">
             <p><span class="q-num">Q8.</span> What does "Lateral Movement" mean in the ATT&CK framework?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q8',false)">Stealing data by transferring it outside the network</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q8',true)">Moving from one compromised system to another within the network</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q8',false)">Gaining the initial foothold in the target environment</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q8',false)">Hiding malicious activity from detection tools</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q8',false)">Stealing data by transferring it outside the network</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q8',true)">Moving from one compromised system to another within the network</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q8',false)">Gaining the initial foothold in the target environment</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q8',false)">Hiding malicious activity from detection tools</button>
             </div>
             <div class="quiz-explanation" id="q8-exp">Lateral Movement (TA0008) is when an attacker moves from one compromised system to others within the network, using stolen credentials, remote services, or shared drives to pivot deeper into the environment.</div>
         </div>
@@ -2152,10 +2492,10 @@
         <div class="quiz-question" id="q9">
             <p><span class="q-num">Q9.</span> What is the primary purpose of EDR (Endpoint Detection and Response)?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q9',false)">Blocking spam emails from reaching user inboxes</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q9',false)">Generating compliance reports for auditors</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q9',true)">Monitoring and protecting individual devices against threats</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q9',false)">Managing firewall rules at the network perimeter</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q9',false)">Blocking spam emails from reaching user inboxes</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q9',false)">Generating compliance reports for auditors</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q9',true)">Monitoring and protecting individual devices against threats</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q9',false)">Managing firewall rules at the network perimeter</button>
             </div>
             <div class="quiz-explanation" id="q9-exp">EDR solutions are installed on endpoints (laptops, servers, etc.) to monitor processes, file changes, and network connections in real time, detect suspicious behavior, and enable rapid response like isolating compromised machines.</div>
         </div>
@@ -2163,10 +2503,10 @@
         <div class="quiz-question" id="q10">
             <p><span class="q-num">Q10.</span> During an investigation, you discover a suspicious DNS query from an internal workstation to a newly registered domain. Screen 4's threat feed confirms this domain is linked to a known threat group. What is the correct next step?</p>
             <div class="quiz-options">
-                <button class="quiz-option" onclick="checkQuiz(this,'q10',false)">Ignore it &#8212; DNS queries are normal network behavior</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q10',false)">Delete the DNS logs to prevent further queries</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q10',false)">Email the user and ask them to stop visiting that website</button>
-                <button class="quiz-option" onclick="checkQuiz(this,'q10',true)">Open an incident case, document IOCs, and initiate containment of the workstation</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q10',false)">Ignore it &#8212; DNS queries are normal network behavior</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q10',false)">Delete the DNS logs to prevent further queries</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q10',false)">Email the user and ask them to stop visiting that website</button>
+                <button class="quiz-option" data-action="checkQuiz(this,'q10',true)">Open an incident case, document IOCs, and initiate containment of the workstation</button>
             </div>
             <div class="quiz-explanation" id="q10-exp">With a corroborated threat intelligence match, this is a confirmed true positive. The correct procedure is to open a formal incident case on Screen 3, document all IOCs (the domain, the source IP, timestamps), and begin containment &#8212; typically by isolating the workstation to prevent further C2 communication.</div>
         </div>
@@ -2198,8 +2538,8 @@
     </div>
 
     <div class="section-nav-bottom">
-        <button class="nav-prev" onclick="goToSection(7)">&#8592; Video Resources</button>
-        <button class="nav-next" onclick="showCompletion()">Complete Lesson &#10003;</button>
+        <button class="nav-prev" data-action="goToSection(8)">&#8592; Multidisciplinary</button>
+        <button class="nav-next" data-action="showCompletion()">Complete Lesson &#10003;</button>
     </div>
 </div>
 
@@ -2210,9 +2550,11 @@
         <h2>Lesson Complete</h2>
         <div class="score-display" id="finalScore">0%</div>
         <div class="score-label">Quiz Accuracy</div>
+        <div class="completion-code" id="completionCode" role="status"></div>
         <p id="completionMessage" style="margin-top:1.5rem;">You've completed the SOC Foundations lesson. Review any sections you'd like to revisit using the navigation above, then proceed to the hands-on simulation exercises.</p>
         <a href="soc-multi-screen.html" target="_blank" class="hero-start-btn" style="margin-top:1.5rem; display:inline-block; text-decoration:none; color:inherit;">Launch SOC Simulator &#8594;</a>
-        <button class="hero-start-btn" onclick="goToSection(0)" style="margin-top:0.75rem; background:transparent; border:1px solid var(--border-dim); color:var(--text-secondary);">Review Lesson</button>
+        <button class="hero-start-btn" data-action="goToSection(0)" style="margin-top:0.75rem; background:transparent; border:1px solid var(--border-dim); color:var(--text-secondary);">Review Lesson</button>
+        <button class="hero-start-btn" data-action="resetLessonProgress()" style="margin-top:0.75rem; margin-left:0.75rem; background:transparent; border:1px solid var(--border-dim); color:var(--text-secondary);">Reset Progress</button>
     </div>
 </div>
 
@@ -2220,8 +2562,34 @@
 
 <script>
     let currentSection = 0;
-    const totalSections = 9;
+    const totalSections = 10;
     let quizScore = 0;
+    /* ============ Progress persistence (punch list item 5) ============ */
+    const LESSON_KEY = 'soc-lesson-v1';
+    function saveLessonState(state) {
+        try { localStorage.setItem(LESSON_KEY, JSON.stringify(state)); } catch (e) { /* private mode etc. */ }
+    }
+    function loadLessonState() {
+        try { return JSON.parse(localStorage.getItem(LESSON_KEY)) || null; } catch (e) { return null; }
+    }
+
+    let lessonState = { started: false, section: 0, quiz: {}, triage: {}, completed: false };
+
+    function buildCompletionCode(pct) {
+        var input = 'SOC-FOUNDATIONS|' + pct + '|' + quizScore + '|' + totalQuizQuestions;
+        var h = 0x811c9dc5;
+        for (var i = 0; i < input.length; i++) {
+            h ^= input.charCodeAt(i);
+            h = Math.imul(h, 0x01000193) >>> 0;
+        }
+        return 'SOC-' + pct + '-' + h.toString(36).toUpperCase().slice(0, 6);
+    }
+
+    function resetLessonProgress() {
+        try { localStorage.removeItem(LESSON_KEY); } catch (e) {}
+        location.reload();
+    }
+
     let quizAnswered = 0;
     const totalQuizQuestions = 10;
 
@@ -2230,6 +2598,8 @@
         document.getElementById('lessonNav').classList.add('visible');
         document.getElementById('lessonBody').classList.add('visible');
         window.scrollTo({ top: 0, behavior: 'smooth' });
+            lessonState.started = true;
+        saveLessonState(lessonState);
     }
 
     function goToSection(idx) {
@@ -2241,11 +2611,15 @@
             updateNav();
             window.scrollTo({ top: document.getElementById('lessonNav').offsetTop - 10, behavior: 'smooth' });
         }
+            lessonState.section = idx;
+        saveLessonState(lessonState);
     }
 
     function updateNav() {
         document.querySelectorAll('.nav-btn[data-section]').forEach(btn => {
-            btn.classList.toggle('active', parseInt(btn.dataset.section) === currentSection);
+            const isCur = parseInt(btn.dataset.section) === currentSection;
+            btn.classList.toggle('active', isCur);
+            if (isCur) { btn.setAttribute('aria-current', 'step'); } else { btn.removeAttribute('aria-current'); }
         });
         const pct = ((currentSection + 1) / totalSections * 100);
         document.getElementById('progressFill').style.width = pct + '%';
@@ -2265,6 +2639,7 @@
             if (!el) return;
         }
         el.classList.toggle('open');
+            if (el && el.hasAttribute('role')) { el.setAttribute('aria-expanded', el.classList.contains('expanded')); }
     }
 
     document.querySelectorAll('.expand-panel').forEach(panel => {
@@ -2292,7 +2667,7 @@
             btn.classList.add('incorrect');
             // Highlight correct answer
             options.forEach(o => {
-                if (o.getAttribute('onclick')?.includes('true')) {
+                if (o.getAttribute('data-action')?.includes('true')) {
                     o.classList.add('correct');
                 }
             });
@@ -2304,6 +2679,11 @@
         // Show explanation
         const exp = document.getElementById(qId + '-exp');
         if (exp) exp.classList.add('show');
+    
+        // persist this answer (item 5)
+        const persistOpts = Array.from(container.querySelectorAll('.quiz-option'));
+        lessonState.quiz[qId] = persistOpts.indexOf(btn);
+        saveLessonState(lessonState);
     }
 
     // Triage sim logic
@@ -2320,7 +2700,7 @@
         } else {
             btn.classList.add('selected-wrong');
             buttons.forEach(b => {
-                if (b.getAttribute('onclick')?.includes('true')) {
+                if (b.getAttribute('data-action')?.includes('true')) {
                     b.classList.add('selected-correct');
                 }
             });
@@ -2358,6 +2738,54 @@
                 triageSim7: {
                     correct: '\u2713 Correct! These three alerts tell a clear story when correlated: impossible travel (San Jose to Ukraine in 6 hours), access to unusual repos, and persistence via a new SSH key \u2014 classic signs of a compromised account. Treating them separately would miss the pattern. Disable the session and lock the account immediately.',
                     wrong: '\u2717 Not quite. These alerts are strongly correlated: an impossible-travel VPN login, followed by access to unusual repositories, followed by adding a new SSH key for persistence \u2014 all within 11 minutes. This is a textbook account compromise. Each alert alone might be explainable, but together they demand immediate action: kill the VPN session, lock the account, and escalate.'
+                },
+                triageSim8: {
+                    correct: '\u2713 Correct! The match string "Invoke" is far too broad. It matches dozens of benign cmdlets (Invoke-WebRequest, Invoke-Command, Invoke-Expression, Invoke-RestMethod) used constantly by admin scripts and legitimate tooling. This is a classic detection-engineering mistake: the rule author was trying to catch "Invoke-Mimikatz"-style obfuscation but forgot that "Invoke" is a PowerShell verb, not an attacker signature.',
+                    wrong: '\u2717 Not quite. When a rule goes from ~140 to ~10,400 alerts overnight with a 97% false positive rate, the problem is almost always in the rule logic, not in the environment. "Invoke" appears in many legitimate PowerShell cmdlets \u2014 the match condition is catching normal admin activity. Roll back, refine the pattern (e.g., require suspicious modifiers like base64, hidden windows, or known malicious cmdlets), and test before redeploying.'
+                },
+                triageSim9: {
+                    correct: '\u2713 Correct! The data tells a clear story: true positives stayed flat (2 incidents vs. baseline 2), but false positive rate more than doubled (31% \u2192 74%). That means something was generating alert-like events that weren\'t real threats. Common culprits: a failed scheduled job retrying thousands of times, a misconfigured log source dumping debug data, or a noisy new detection rule. The attack hypothesis is not supported by the data.',
+                    wrong: '\u2717 Not quite. The key data point is that true positives held steady (2 incidents) while the false positive rate jumped from 31% to 74%. If this were a real attack, you\'d expect incidents to rise, not just alert volume. Noise and signal look different in the data: a spike in volume with unchanged true positives is a noise event, not a threat event.'
+                },
+                triageSim10: {
+                    correct: '\u2713 Correct! A sudden 60% drop with precision rising to 0.94 but recall uncomputable is a data-quality red flag, not a model success. It means the model is seeing very few events, and the few it sees are clean hits. That pattern is consistent with starvation \u2014 the model isn\'t getting data to score. Check the pipeline: are log sources reporting? Are features being computed? Is a sensor down?',
+                    wrong: '\u2717 Not quite. High precision with uncomputable recall is a warning sign, not a win. The model isn\'t better \u2014 it just has almost nothing to look at. Before celebrating or retraining, check the data pipeline: log ingestion, feature freshness, sensor health. A silent pipeline break is a common cause of sudden model "improvement."'
+                },
+                triageSim11: {
+                    correct: '\u2713 Correct! A good exec brief leads with scope (one server, contained), impact (no data loss, no customer-facing effect), time-to-recovery (6\u20138 hours), and open obligations (PCI evaluation). It avoids jargon like T1486 and EDR, and it doesn\'t promise either "everything\'s fine" or jump to drastic decisions like paying ransom. The CEO needs to know how to answer if asked by the board, not the MITRE technique ID.',
+                    wrong: '\u2717 Not quite. Executives need scope, impact, timeline, and obligations \u2014 in that order, in business language. Jargon-heavy briefings lose the room. Overconfidence ("everything\'s fine") creates surprises later. Jumping to dramatic decisions (ransom payment) before options are analyzed forces the CEO into a false binary. The discipline is: lead with what matters to business continuity, be honest about what you don\'t yet know, and name the open decisions.'
+                },
+                triageSim12: {
+                    correct: '\u2713 Correct! A multi-jurisdiction PHI breach has overlapping clocks: GDPR requires DPA notification within 72 hours of awareness, HIPAA gives 60 days for most notifications (but some state laws shorten this), and California adds CMIA and CCPA obligations. Engaging legal counsel immediately lets you preserve attorney-client privilege over the investigation and run the notification tracks in parallel rather than serially.',
+                    wrong: '\u2717 Not quite. The dangerous default is to wait for complete information before engaging legal \u2014 but notification clocks start ticking at "awareness of a breach," not at "final forensic report." GDPR\'s 72-hour DPA clock is the tightest here. The correct move is to activate legal immediately so notification tracks (HIPAA, GDPR, state-level) run in parallel, evidence is preserved under privilege, and communications are coordinated rather than conflicting.'
+                },
+                triageSim13: {
+                    correct: '\u2713 Correct! Cross-border cyber cases rarely have a single "primary" authority. The FBI will claim US interest (victim company), the BKA will claim German interest (affected server on German soil, potential German victims), and the relevant EU Data Protection Authority will assert regulatory authority over EU-resident data. Cooperation happens through MLAT (Mutual Legal Assistance Treaty) channels, and investigators from different countries work in parallel, not sequence. Russia, as a non-cooperating jurisdiction, is typically unreachable for enforcement.',
+                    wrong: '\u2717 Not quite. Cyber jurisdiction is rarely exclusive. Multiple authorities have legitimate interest: the US (victim company), Germany (hosted infrastructure, potential German victims), and the EU (data subject protection). These authorities coordinate via MLAT channels rather than one overriding the others. Attacker origin (Russia) matters for attribution and sanctions, but Russia doesn\'t typically cooperate on extradition, so practical investigation happens among the cooperating jurisdictions.'
+                },
+                triageSim14: {
+                    correct: '\u2713 Correct! This is a textbook pre-departure exfiltration pattern. Each week escalates deliberately: low-risk action (printing) to medium (personal email) to high (bulk download). The pattern tests the system\'s response \u2014 when week 2 wasn\'t blocked, the employee interpreted silence as permission. The 17:50 Friday timing is deliberate: low supervision, a full weekend before anyone notices, and the following Monday the employee is one week closer to departure. Behavioral signals like this are often visible weeks before the actual theft \u2014 if anyone is watching.',
+                    wrong: '\u2717 Not quite. The behavioral signature here isn\'t random opportunism \u2014 it\'s a methodical escalation. Week 1 establishes what\'s tolerated. Week 2 probes the boundary (personal email flagged but not blocked). Week 3 exploits the confirmed gap (bulk download at Friday evening, the classic low-supervision window). This graduated escalation is one of the most reliable behavioral signatures of insider data theft and is typically visible in DLP logs weeks before the final exfiltration event.'
+                },
+                triageSim15: {
+                    correct: '\u2713 Correct! In healthcare SOC work, the rule is: patient safety first, forensics second, clean containment third. You never power down a medical device mid-procedure \u2014 that can harm a patient. You never make unilateral decisions about clinical equipment without engaging clinical staff. The correct pattern runs safety and security in parallel: complete the active scan under clinical supervision, then network-isolate (which preserves the machine state for forensics), then reschedule care, then vendor engagement. Blocking PACS-01 unilaterally would break every other imaging system in the hospital.',
+                    wrong: '\u2717 Not quite. Medical device incidents have a unique rule: the patient outranks the forensics. Powering down an MRI mid-scan can harm the patient. Blocking upstream systems like PACS can break imaging for the whole hospital. Waiting passively lets the infection spread. The correct pattern is parallel execution: let the active scan finish safely under clinical supervision, then network-isolate (not power-cycle) the device, then reschedule downstream care, then engage the vendor \u2014 with clinical engineering and the radiology charge nurse involved from minute one.'
+                },
+                triageSim16: {
+                    correct: '\u2713 Correct! HIPAA violations from "snooping" (accessing a record without a treatment, payment, or operations purpose) are surprisingly common, especially when employees access records of family members, neighbors, or celebrities. The access is technically authorized by the system but not authorized by the purpose of use. This requires a Privacy Officer investigation \u2014 the outcome could range from retraining to termination, and depending on scope may or may not rise to a reportable breach. Jumping to either "no issue" or "automatic breach" skips the investigation that HIPAA actually requires.',
+                    wrong: '\u2717 Not quite. HIPAA authorizes access based on purpose of use, not just role. A nurse with valid EHR access who looks up a same-surname patient not assigned to their unit has potentially committed a "snooping" violation. This is neither automatically fine nor automatically a reportable breach \u2014 it requires a Privacy Officer investigation. Healthcare has specific procedures for this, and the SOC\'s job is to escalate cleanly rather than conclude or terminate.'
+                },
+                triageSim17: {
+                    correct: '\u2713 Correct! OT security has inverted priorities from IT security. In IT, confidentiality typically outranks availability; in OT, availability and safety outrank everything else. Abruptly cutting SCADA traffic mid-batch can trigger unsafe shutdowns, physical damage, or hazardous states that take days to recover from. The correct path is collaborative: engage plant operators and OT engineers, verify whether the destination is a legitimate vendor telemetry endpoint (many modern controllers phone home for predictive maintenance), and stage containment around the batch cycle if confirmed malicious.',
+                    wrong: '\u2717 Not quite. The instinct to "block first, ask questions later" is correct for IT but dangerous in OT. SCADA and PLCs control physical processes \u2014 improper containment can cause production damage, hazardous states, or safety incidents. The correct pattern engages OT engineers and plant operators first, verifies whether the destination is legitimate vendor telemetry, and stages any containment action around the batch cycle. "Never touch OT" is also wrong \u2014 the SOC absolutely owns OT security, just with different response playbooks.'
+                },
+                triageSim18: {
+                    correct: '\u2713 Correct! Whistleblower protections in many jurisdictions (US SOX, Dodd-Frank, state laws, EU Whistleblower Directive) explicitly protect communications to legal counsel and regulators about suspected wrongdoing. Treating a protected disclosure as an insider-threat incident can expose the company to retaliation claims and undermine the protections the law is designed to create. The right move is to route this out of the standard DLP/insider-threat workflow and into Legal/Ethics, who will evaluate the content and the protections involved.',
+                    wrong: '\u2717 Not quite. This is one of the most legally sensitive scenarios a SOC encounters. Treating a suspected whistleblower disclosure as a standard insider-threat case \u2014 disabling the account, preserving evidence for termination, or even just looping in the employee\'s manager \u2014 can expose the company to retaliation claims under laws like SOX, Dodd-Frank, or the EU Whistleblower Directive. The SOC\'s job here is to recognize the pattern and route it to Legal/Ethics rather than process it through the usual workflow.'
+                },
+                triageSim19: {
+                    correct: '\u2713 Correct! Patient safety is the only clock measured in minutes. Two IV infusion pumps stuck at last-known settings means patients could be over- or under-dosing right now. Clinical leadership needs to make immediate manual-monitoring decisions; biomedical engineering needs to assess whether devices can be safely swapped or manually operated. Legal, forensics, executives, communications, and law enforcement all matter \u2014 but they operate on timescales of hours and days. The others get called in the same hour; clinical gets called in the same minute.',
+                    wrong: '\u2717 Not quite. This scenario tests priority under pressure. HIPAA, public statements, and law enforcement are all legitimate concerns, but they operate on timescales of hours and days. The IV infusion pumps stuck mid-dose are a patient-safety issue measured in minutes. Clinical leadership and biomedical engineering must be engaged first so that manual monitoring or device swapping can begin immediately. The correct multi-disciplinary habit is to sequence by time-criticality: safety-now, investigation-today, notification-this-week.'
                 }
             };
             const msg = messages[simId];
@@ -2365,6 +2793,11 @@
                 feedback.textContent = correct ? msg.correct : msg.wrong;
             }
         }
+    
+        // persist this answer (item 5)
+        const persistBtns = Array.from(container.querySelectorAll('.sim-btn'));
+        lessonState.triage[simId] = persistBtns.indexOf(btn);
+        saveLessonState(lessonState);
     }
 
     function showCompletion() {
@@ -2392,6 +2825,15 @@
         document.getElementById('progressText').textContent = '&#10003;';
 
         window.scrollTo({ top: document.getElementById('lessonNav').offsetTop - 10, behavior: 'smooth' });
+    
+        // completion code + persistence (item 5)
+        const codeEl = document.getElementById('completionCode');
+        if (codeEl) {
+            codeEl.innerHTML = 'Completion code: <strong>' + buildCompletionCode(pct) + '</strong>' +
+                '<span class="code-note">Copy this code and submit it with your assignment.</span>';
+        }
+        lessonState.completed = true;
+        saveLessonState(lessonState);
     }
 
     // &#9472;&#9472; INLINE TOOLTIP FOR MITRE TACTICS &#9472;&#9472;
@@ -2461,7 +2903,99 @@
             goToSection(currentSection - 1);
         }
     });
+
+    /* ---- Restore saved progress (item 5) ---- */
+    (function restoreLessonProgress() {
+        const saved = loadLessonState();
+        if (!saved) return;
+        lessonState = Object.assign({ started: false, section: 0, quiz: {}, triage: {}, completed: false }, saved);
+        Object.keys(lessonState.quiz).forEach(function (qId) {
+            const c = document.getElementById(qId);
+            if (!c) return;
+            const opts = c.querySelectorAll('.quiz-option');
+            const btn = opts[lessonState.quiz[qId]];
+            if (btn) checkQuiz(btn, qId, (btn.getAttribute('data-action') || '').includes('true'));
+        });
+        Object.keys(lessonState.triage).forEach(function (simId) {
+            const c = document.getElementById(simId);
+            if (!c) return;
+            const btns = c.querySelectorAll('.sim-btn');
+            const btn = btns[lessonState.triage[simId]];
+            if (btn) checkTriage(btn, (btn.getAttribute('data-action') || '').includes('true'), simId);
+        });
+        if (lessonState.started) {
+            startLesson();
+            goToSection(lessonState.section || 0);
+            window.scrollTo({ top: 0 });
+        }
+    })();
 </script>
 
+
+<script>
+/* CSP-safe delegated event dispatcher + accessibility helpers (a11y pass). */
+(function () {
+    'use strict';
+    function parseArg(tok, el, ev) {
+        tok = tok.trim();
+        if (tok === 'this') return el;
+        if (tok === 'event') return ev;
+        if (tok === 'true') return true;
+        if (tok === 'false') return false;
+        var qs = tok.match(/^this\.querySelector\('([^']+)'\)$/);
+        if (qs) return el.querySelector(qs[1]);
+        var str = tok.match(/^'([^']*)'$/);
+        if (str) return str[1];
+        if (/^-?\d+(\.\d+)?$/.test(tok)) return Number(tok);
+        return undefined;
+    }
+    function splitArgs(s) {
+        var out = [], depth = 0, q = false, cur = '';
+        for (var i = 0; i < s.length; i++) {
+            var c = s[i];
+            if (c === "'" ) { q = !q; cur += c; }
+            else if (!q && c === '(') { depth++; cur += c; }
+            else if (!q && c === ')') { depth--; cur += c; }
+            else if (!q && depth === 0 && c === ',') { out.push(cur); cur = ''; }
+            else cur += c;
+        }
+        if (cur.trim()) out.push(cur);
+        return out;
+    }
+    function runAction(expr, el, ev) {
+        var m = expr.match(/^\s*([A-Za-z_$][\w$]*)\s*\((.*)\)\s*$/);
+        if (!m) return;
+        var fn = window[m[1]];
+        if (typeof fn !== 'function') return;
+        var args = m[2].trim() ? splitArgs(m[2]).map(function (t) { return parseArg(t, el, ev); }) : [];
+        fn.apply(null, args);
+    }
+    document.addEventListener('click', function (ev) {
+        var dis = ev.target.closest('[data-dismiss]');
+        if (dis && ev.target === dis) {
+            var f = window[dis.getAttribute('data-dismiss')];
+            if (typeof f === 'function') f();
+            return;
+        }
+        var t = ev.target.closest('[data-action]');
+        if (t) runAction(t.getAttribute('data-action'), t, ev);
+    });
+    document.addEventListener('keydown', function (ev) {
+        if (ev.key === 'Enter' || ev.key === ' ' || ev.key === 'Spacebar') {
+            var t = ev.target.closest('[role="button"][data-action]');
+            if (t) { ev.preventDefault(); runAction(t.getAttribute('data-action'), t, ev); }
+        }
+        if (ev.key === 'Tab') { /* basic focus trap for the display-info dialog */
+            var ov = document.getElementById('diOverlay');
+            if (!ov || !ov.classList.contains('visible')) return;
+            var f = ov.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]');
+            if (!f.length) return;
+            var first = f[0], last = f[f.length - 1];
+            if (ev.shiftKey && document.activeElement === first) { ev.preventDefault(); last.focus(); }
+            else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
+        }
+    });
+})();
+</script>
 </body>
 </html>
