@@ -33,7 +33,13 @@ jobs:
           mkdir -p _site
           rsync -av ./ _site/ \
             --exclude '.git/' \
-            --exclude '.github/'
+            --exclude '.github/' \
+            --exclude 'node_modules/' \
+            --exclude '.venv/' \
+            --exclude 'venv/' \
+            --exclude '__pycache__/' \
+            --exclude '*.py' \
+            --exclude '*.md'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
